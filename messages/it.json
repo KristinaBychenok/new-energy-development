@@ -1,0 +1,97 @@
+{
+  "PageLayout": {
+    "header": {
+      "pageNav": {
+        "about": { "title": "Chi siamo" },
+        "services": { "title": "Servizi" },
+        "portfolio": { "title": "Portafoglio" },
+        "contact": { "title": "Contatti" }
+      }
+    },
+    "body": {
+      "mainSection": {
+        "title": "Costruire il futuro",
+        "subTitle": "Soluzioni complete per costruzioni e riparazioni",
+        "content": "Dalla costruzione della casa dei tuoi sogni al miglioramento degli spazi esistenti, alla gestione delle riparazioni e alla gestione precisa del tuo patrimonio immobiliare, siamo il tuo partner di fiducia in ogni fase del percorso.",
+        "button": "Contattaci"
+      },
+      "aboutSection": {
+        "title": "Chi siamo",
+        "subTitle": "Lavoriamo perché tu possa vivere nei tuoi sogni",
+        "content": "New Energy Development è il tuo partner di fiducia per la gestione immobiliare e i servizi di costruzione di alta qualità nella regione della Costa Azzurra in Francia e a Monaco. Siamo diventati un consulente di riferimento per molti, offrendo un servizio personalizzato, affidabilità, professionalità e opzioni di pagamento comode. Fondata nel 2015, disponiamo di tutte le licenze e le assicurazioni necessarie per operare in Francia e a Monaco."
+      },
+      "servicesSection": {
+        "title": "I nostri servizi",
+        "subTitle": "Lavori di alta qualità di qualsiasi complessità",
+        "services": {
+          "Repair": {
+            "title": "Lavori di riparazione e costruzione",
+            "subTitle": "Costruzione chiavi in mano e ordini personalizzati",
+            "img": "/service-1.png",
+            "services": [
+              "Erezione di fondamenta e lavori in cemento",
+              "Lavori di idraulica",
+              "Installazione di smart home",
+              "Arredamento casa",
+              "Lavori elettrici"
+            ],
+            "button": "Maggiori dettagli"
+          },
+          "Installation": {
+            "title": "Lavori di installazione",
+            "subTitle": "Costruzione chiavi in mano e ordini personalizzati",
+            "img": "/service-2.png",
+            "services": [
+              "Erezione di fondamenta e lavori in cemento",
+              "Lavori di idraulica",
+              "Installazione di smart home",
+              "Arredamento casa",
+              "Lavori elettrici"
+            ],
+            "button": "Maggiori dettagli"
+          }
+        }
+      },
+      "chooseUsSection": {
+        "title": "Perché sceglierci",
+        "subTitle": "Non solo un'azienda edile",
+        "reasons": {
+          "1": {
+            "title": "Maestri esperti",
+            "subTitle": "Il lavoro di alta qualità è evidenziato in oltre 300 recensioni positive."
+          },
+          "2": {
+            "title": "Servizio completo",
+            "subTitle": "Ti accompagniamo in ogni passo della nostra collaborazione."
+          },
+          "3": {
+            "title": "Parliamo la tua lingua.",
+            "subTitle": "Nel nostro arsenale abbiamo le lingue ucraina, russa, tedesca, francese, inglese, italiana e olandese."
+          }
+        }
+      },
+      "contactSection": {
+        "title": "Contatto",
+        "subTitle": "Rimani in contatto",
+        "content": "Compila il modulo qui sotto e ti contatteremo presto per discutere del tuo problema.",
+        "form": {
+          "name": "Nome",
+          "email": "E-mail",
+          "phone": "Telefono",
+          "case": "Scegli il tuo caso",
+          "message": "Il tuo messaggio",
+          "button": "Contattaci"
+        }
+      }
+    },
+    "footer": {
+      "logo": "Benvenuti in New Energy Development s.r.o.",
+      "contacts": {
+        "title": "Contattaci",
+        "email": "Email",
+        "phones": "Telefoni"
+      },
+      "map": "Mappa del sito:"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "PageLayout": {
+    "header": {
+      "pageNav": {
+        "about": { "title": "Über uns" },
+        "services": { "title": "Leistungen" },
+        "portfolio": { "title": "Portfolio" },
+        "contact": { "title": "Kontakt" }
+      }
+    },
+    "body": {
+      "mainSection": {
+        "title": "Zukunft gestalten.",
+        "subTitle": "Umfassende Bau und Reparaturlösungen",
+        "content": "Vom Bau Ihres Traumhauses über die Aufwertung bestehender Räume bis hin zur Abwicklung von Reparaturen und der präzisen Verwaltung Ihres Immobilienvermögens sind wir bei jedem Schritt Ihr vertrauenswürdiger Partner.",
+        "button": "Kontaktieren Sie uns"
+      },
+      "aboutSection": {
+        "title": "Über uns",
+        "subTitle": "Wir arbeiten dafür, dass Sie in Ihren Träumen leben",
+        "content": "New Energy Development ist Ihr vertrauenswürdiger Partner für Immobilienmanagement und hochwertige Bauleistungen in der Region Côte d'Azur in Frankreich und Monaco. Wir sind zu einem Ansprechpartner für viele geworden, bieten persönlichen Service, Zuverlässigkeit, Professionalität und bequeme Zahlungsoptionen. Gegründet im Jahr 2015, verfügen wir über alle erforderlichen Lizenzen und Versicherungen für den Betrieb in Frankreich und Monaco."
+      },
+      "servicesSection": {
+        "title": "Unsere Dienstleistungen",
+        "subTitle": "Hochwertige Arbeit jeder Komplexität",
+        "services": {
+          "Repair": {
+            "title": "Reparatur- und Bauarbeiten",
+            "subTitle": "Schlüsselfertiger Bau und individuelle Aufträge",
+            "img": "/service-1.png",
+            "services": [
+              "Errichtung von Fundamenten und Betonarbeiten",
+              "Installationsarbeiten",
+              "Smart-Home-Einrichtung",
+              "Hauseinrichtung",
+              "Elektrische Arbeiten"
+            ],
+            "button": "Weitere Details"
+          },
+          "Installation": {
+            "title": "Installationsarbeiten",
+            "subTitle": "Schlüsselfertiger Bau und individuelle Aufträge",
+            "img": "/service-2.png",
+            "services": [
+              "Errichtung von Fundamenten und Betonarbeiten",
+              "Installationsarbeiten",
+              "Smart-Home-Einrichtung",
+              "Hauseinrichtung",
+              "Elektrische Arbeiten"
+            ],
+            "button": "Weitere Details"
+          }
+        }
+      },
+      "chooseUsSection": {
+        "title": "Warum uns wählen",
+        "subTitle": "Nicht nur ein Bauunternehmen",
+        "reasons": {
+          "1": {
+            "title": "Erfahrene Meister",
+            "subTitle": "Hochwertige Arbeit wird in über 300 positiven Bewertungen hervorgehoben."
+          },
+          "2": {
+            "title": "Umfassender Service",
+            "subTitle": "Wir begleiten Sie bei jedem Schritt unserer Zusammenarbeit."
+          },
+          "3": {
+            "title": "Wir sprechen Ihre Sprache.",
+            "subTitle": "In unserem Arsenal haben wir die Sprachen Ukrainisch, Russisch, Deutsch, Französisch, Englisch, Italienisch und Niederländisch."
+          }
+        }
+      },
+      "contactSection": {
+        "title": "Kontakt",
+        "subTitle": "In Kontakt bleiben",
+        "content": "Füllen Sie das unten stehende Formular aus, und wir werden uns bald mit Ihnen in Verbindung setzen, um Ihr Anliegen zu besprechen.",
+        "form": {
+          "name": "Name",
+          "email": "E-Mail",
+          "phone": "Telefon",
+          "case": "Wählen Sie Ihren Fall",
+          "message": "Ihre Nachricht",
+          "button": "Kontaktieren Sie uns"
+        }
+      }
+    },
+    "footer": {
+      "logo": "Willkommen bei New Energy Development s.r.o.",
+      "contacts": {
+        "title": "Kontaktieren Sie uns",
+        "email": "E-Mail",
+        "phones": "Telefonnummern"
+      },
+      "map": "Seitenverzeichnis:"
+    }
+  }
+}

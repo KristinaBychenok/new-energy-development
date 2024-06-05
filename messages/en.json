@@ -1,0 +1,97 @@
+{
+  "PageLayout": {
+    "header": {
+      "pageNav": {
+        "about": { "title": "About Us" },
+        "services": { "title": "Services" },
+        "portfolio": { "title": "Portfolio" },
+        "contact": { "title": "Contact" }
+      }
+    },
+    "body": {
+      "mainSection": {
+        "title": "Building Futures",
+        "subTitle": "Comprehensive Construction & Repair Solutions",
+        "content": "From building your dream home to enhancing existing spaces, handling repairs, and managing your real estate assets with precision, we are your trusted partner every step of the way.",
+        "button": "Contact us"
+      },
+      "aboutSection": {
+        "title": "About us",
+        "subTitle": "We work so that you live in your dreams",
+        "content": "New Energy Development is your trusted partner for property management and high-quality construction services in the Cote d'Azur region of France and Monaco. We've become a go-to consultant for many, offering personalized service, reliability, professionalism, and convenient payment options. Established in 2015, we hold all necessary licenses and insurance for operations in France and Monaco."
+      },
+      "servicesSection": {
+        "title": "Our services",
+        "subTitle": "High-quality work of any complexity",
+        "services": {
+          "Repair": {
+            "title": "Repair and construction works",
+            "subTitle": "Turnkey construction and custom orders",
+            "img": "/service-1.png",
+            "services": [
+              "Erection of foundation and concrete works",
+              "Plumbing works",
+              "Smart home setup",
+              "House furnishing",
+              "Electrical works"
+            ],
+            "button": "More details"
+          },
+          "Installation": {
+            "title": "Installation works",
+            "subTitle": "Turnkey construction and custom orders",
+            "img": "/service-2.png",
+            "services": [
+              "Erection of foundation and concrete works",
+              "Plumbing works",
+              "Smart home setup",
+              "House furnishing",
+              "Electrical works"
+            ],
+            "button": "More details"
+          }
+        }
+      },
+      "chooseUsSection": {
+        "title": "Why choose us",
+        "subTitle": "Not just construction company",
+        "reasons": {
+          "1": {
+            "title": "Experienced Masters",
+            "subTitle": "High-quality work is noted in over 300 positive reviews."
+          },
+          "2": {
+            "title": "Comprehensive service",
+            "subTitle": "We accompany you every step of our collaboration."
+          },
+          "3": {
+            "title": "We speak your language.",
+            "subTitle": "In our arsenal, we have Ukrainian, Russian, German, French, English, Italian, and Dutch languages."
+          }
+        }
+      },
+      "contactSection": {
+        "title": "Contact",
+        "subTitle": "Keep in touch",
+        "content": "Complete the form bellow and we will contact you soon to discuss your issue.",
+        "form": {
+          "name": "Name",
+          "email": "Email",
+          "phone": "Phone",
+          "case": "Choose your case",
+          "message": "Your message",
+          "button": "Contact us"
+        }
+      }
+    },
+    "footer": {
+      "logo": "Welcome to New Energy Development s.r.o.",
+      "contacts": {
+        "title": "Contact us",
+        "email": "Email",
+        "phones": "Phones"
+      },
+      "map": "Site map:"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "PageLayout": {
+    "header": {
+      "pageNav": {
+        "about": { "title": "À propos de nous" },
+        "services": { "title": "Services" },
+        "portfolio": { "title": "Portfolio" },
+        "contact": { "title": "Contact" }
+      }
+    },
+    "body": {
+      "mainSection": {
+        "title": "Construire l'avenir",
+        "subTitle": "Solutions complètes de construction et de réparation",
+        "content": "De la construction de la maison de vos rêves à l'amélioration des espaces existants, en passant par les réparations et la gestion précise de votre patrimoine immobilier, nous sommes votre partenaire de confiance à chaque étape.",
+        "button": "Contactez-nous"
+      },
+      "aboutSection": {
+        "title": "À propos de nous",
+        "subTitle": "Nous travaillons pour que vous viviez dans vos rêves",
+        "content": "New Energy Development est votre partenaire de confiance pour la gestion immobilière et les services de construction de haute qualité dans la région de la Côte d'Azur en France et à Monaco. Nous sommes devenus un consultant de référence pour beaucoup, offrant un service personnalisé, fiabilité, professionnalisme et options de paiement pratiques. Fondée en 2015, nous détenons toutes les licences et assurances nécessaires pour nos activités en France et à Monaco."
+      },
+      "servicesSection": {
+        "title": "Nos services",
+        "subTitle": "Travail de haute qualité de toute complexité",
+        "services": {
+          "Repair": {
+            "title": "Travaux de réparation et de construction",
+            "subTitle": "Construction clé en main et commandes personnalisées",
+            "img": "/service-1.png",
+            "services": [
+              "Érection de fondations et travaux en béton",
+              "Travaux de plomberie",
+              "Installation de maison intelligente",
+              "Aménagement de la maison",
+              "Travaux électriques"
+            ],
+            "button": "Plus de détails"
+          },
+          "Installation": {
+            "title": "Travaux d'installation",
+            "subTitle": "Construction clé en main et commandes personnalisées",
+            "img": "/service-2.png",
+            "services": [
+              "Érection de fondations et travaux en béton",
+              "Travaux de plomberie",
+              "Installation de maison intelligente",
+              "Aménagement de la maison",
+              "Travaux électriques"
+            ],
+            "button": "Plus de détails"
+          }
+        }
+      },
+      "chooseUsSection": {
+        "title": "Pourquoi nous choisir",
+        "subTitle": "Pas seulement une entreprise de construction",
+        "reasons": {
+          "1": {
+            "title": "Maîtres expérimentés",
+            "subTitle": "Un travail de haute qualité est noté dans plus de 300 avis positifs."
+          },
+          "2": {
+            "title": "Service complet",
+            "subTitle": "Nous vous accompagnons à chaque étape de notre collaboration."
+          },
+          "3": {
+            "title": "Nous parlons votre langue.",
+            "subTitle": "Dans notre arsenal, nous avons les langues ukrainienne, russe, allemande, française, anglaise, italienne et néerlandaise."
+          }
+        }
+      },
+      "contactSection": {
+        "title": "Contact",
+        "subTitle": "Restez en contact",
+        "content": "Remplissez le formulaire ci-dessous et nous vous contacterons bientôt pour discuter de votre problème.",
+        "form": {
+          "name": "Nom",
+          "email": "E-mail",
+          "phone": "Téléphone",
+          "case": "Choisissez votre cas",
+          "message": "Votre message",
+          "button": "Nous contacter"
+        }
+      }
+    },
+    "footer": {
+      "logo": "Bienvenue chez New Energy Development s.r.o.",
+      "contacts": {
+        "title": "Contactez-nous",
+        "email": "E-mail",
+        "phones": "Téléphones"
+      },
+      "map": "Plan du site :"
+    }
+  }
+}

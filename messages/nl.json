@@ -1,0 +1,98 @@
+{
+  "PageLayout": {
+    "header": {
+      "pageNav": {
+        "about": { "title": "Over ons" },
+        "services": { "title": "Diensten" },
+        "portfolio": { "title": "Portfolio" },
+        "contact": { "title": "Contact" }
+      }
+    },
+    "body": {
+      "mainSection": {
+        "title": "Toekomst bouwen",
+        "subTitle": "Uitgebreide bouw- en reparatieoplossingen",
+        "content": "Van het bouwen van uw droomhuis tot het verbeteren van bestaande ruimtes, het uitvoeren van reparaties en het nauwkeurig beheren van uw onroerend goed: wij zijn uw vertrouwde partner bij elke stap.",
+        "button": "Neem contact met ons op"
+      },
+      "aboutSection": {
+        "title": "Over ons",
+        "subTitle": "We werken zodat jij in je dromen kunt leven",
+        "content": "New Energy Development is uw vertrouwde partner voor vastgoedbeheer en hoogwaardige bouwdiensten in de regio Côte d'Azur in Frankrijk en Monaco. We zijn uitgegroeid tot een vertrouwde adviseur voor velen, met gepersonaliseerde service, betrouwbaarheid, professionaliteit en handige betalingsopties. Opgericht in 2015, beschikken we over alle nodige licenties en verzekeringen voor activiteiten in Frankrijk en Monaco."
+      },
+      "servicesSection": {
+        "title": "Onze diensten",
+        "subTitle": "Hoogwaardig werk van elke complexiteit",
+        "services": {
+          "Repair": {
+            "title": "Reparatie- en bouwwerkzaamheden",
+            "subTitle": "Sleutelklare bouw en maatwerkopdrachten",
+            "img": "/service-1.png",
+            "services": [
+              "Opbouw van fundering en betonwerken",
+              "Loodgieterswerkzaamheden",
+              "Slimme woninginstallatie",
+              "Huisinrichting",
+              "Elektrische werken"
+            ],
+            "button": "Meer details"
+          },
+          "Installation": {
+            "title": "Installatiewerkzaamheden",
+            "subTitle": "Sleutelklare bouw en maatwerkopdrachten",
+            "img": "/service-2.png",
+            "services": [
+              "Opbouw van fundering en betonwerken",
+              "Loodgieterswerkzaamheden",
+              "Slimme woninginstallatie",
+              "Huisinrichting",
+              "Elektrische werken"
+            ],
+            "button": "Meer details"
+          }
+        }
+      },
+      "chooseUsSection": {
+        "title": "Waarom voor ons kiezen",
+        "subTitle": "Niet alleen een bouwbedrijf",
+        "reasons": {
+          "1": {
+            "title": "Ervaren Meesters",
+            "subTitle": "Hoogwaardig werk wordt genoteerd in meer dan 300 positieve recensies."
+          },
+          "2": {
+            "title": "Uitgebreide service",
+            "subTitle": "We begeleiden u bij elke stap van onze samenwerking."
+          },
+          "3": {
+            "title": "Wij spreken uw taal.",
+            "subTitle": "In ons arsenaal hebben we de talen Oekraïens, Russisch, Duits, Frans, Engels, Italiaans en Nederlands."
+          }
+        }
+      },
+      "contactSection": {
+        "title": "Contact",
+        "subTitle": "Blijf in contact",
+        "content": "Vul het onderstaande formulier in en we nemen binnenkort contact met u op om uw probleem te bespreken.",
+        "form": {
+          "name": "Naam",
+          "email": "E-mail",
+          "phone": "Telefoon",
+          "case": "Kies uw geval",
+          "message": "Uw bericht",
+          "button": "Neem contact met ons op"
+        }
+      }
+    },
+
+    "footer": {
+      "logo": "Welkom bij New Energy Development s.r.o.",
+      "contacts": {
+        "title": "Neem contact met ons op",
+        "email": "E-mail",
+        "phones": "Telefoons"
+      },
+      "map": "Siteoverzicht:"
+    }
+  }
+}
