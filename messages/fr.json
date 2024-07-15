@@ -1,0 +1,232 @@
+{
+  "PageLayout": {
+    "header": {
+      "pageNav": {
+        "about": { "title": "À propos de nous" },
+        "services": { "title": "Services" },
+        "portfolio": { "title": "Portfolio" },
+        "contact": { "title": "Contact" }
+      },
+      "phone": "+33651981641"
+    },
+    "body": {
+      "mainSection": {
+        "title": "Construire l'avenir",
+        "subTitle": "Solutions complètes de construction et de réparation",
+        "content": "De la construction de la maison de vos rêves à l'amélioration des espaces existants, en passant par les réparations et la gestion précise de votre patrimoine immobilier, nous sommes votre partenaire de confiance à chaque étape.",
+        "button": "Contactez-nous"
+      },
+      "aboutSection": {
+        "title": "À propos de nous",
+        "subTitle": "Nous travaillons pour que vous puissiez vivre vos rêves",
+        "content1": "New Energy Development est votre partenaire de confiance pour la gestion immobilière et les services de construction de haute qualité dans la région de la Côte d'Azur en France et à Monaco. Nous sommes devenus un consultant privilégié pour beaucoup, offrant un service personnalisé, une fiabilité, un professionnalisme et des options de paiement pratiques.",
+        "content2": "Fondée en 2015, nous possédons toutes les licences et assurances nécessaires pour opérer en France et à Monaco.",
+        "achievements": {
+          "1": {
+            "title": "Plus de 7 ans d'expérience",
+            "content": "Nous vous accompagnons à chaque étape de notre collaboration."
+          },
+          "2": {
+            "title": "Équipe professionnelle",
+            "content": "La haute qualité de notre travail a été notée dans plus de 300 avis positifs."
+          },
+          "3": {
+            "title": "Partenaires de confiance",
+            "content": "Un réseau de partenaires vérifiés dans divers domaines (design, fabrication de meubles, etc.)."
+          },
+          "4": {
+            "title": "Nous parlons votre langue",
+            "content": "Dans notre arsenal, nous avons les langues ukrainienne, russe, allemande, française, anglaise, italienne et néerlandaise."
+          }
+        }
+      },
+      "servicesSection": {
+        "title": "Nos services",
+        "subTitle": "Travail de haute qualité de toute complexité",
+        "worksTitle": "Que comprend nos services?",
+        "services": {
+          "1": {
+            "title": "Systèmes d'ingénierie",
+            "subTitle": "Conception, installation et maintenance des réseaux et systèmes d'ingénierie.",
+            "img": "/service-1.png",
+            "works": {
+              "1": "- Conception des systèmes d'ingénierie de bâtiment;",
+              "2": "- Installation et maintenance des systèmes d'automatisation et de gestion;",
+              "3": "- Installation des systèmes d'alarme incendie et d'extinction d'incendie;",
+              "4": "- Installation des systèmes de sécurité et de vidéosurveillance;"
+            },
+            "button": "Plus de détails"
+          },
+          "2": {
+            "title": "Travaux électriques",
+            "subTitle": "Installation, maintenance et réparation des systèmes et câblages électriques.",
+            "img": "/service-2.png",
+            "works": {
+              "1": "- Installation et remplacement des câblages électriques;",
+              "2": "- Installation et remplacement des prises et interrupteurs;",
+              "3": "- Raccordement et installation des luminaires (lustres, lampes, appliques, etc.);",
+              "4": "- Installation et raccordement des tableaux électriques et des disjoncteurs;",
+              "5": "- Installation et raccordement des appareils électriques (cuisinières électriques, chauffe-eaux, etc.);",
+              "6": "- Réalisation de mesures électriques et tests de réseau;",
+              "7": "- Réparation et maintenance des systèmes électriques;",
+              "8": "- Installation des systèmes de mise à la terre et de protection contre la foudre;",
+              "9": "- Configuration et installation des systèmes de domotique;",
+              "10": "- Raccordement des appareils électroménagers et électroniques."
+            },
+            "button": "Plus de détails"
+          },
+          "3": {
+            "title": "Plomberie",
+            "subTitle": "Installation, réparation et maintenance des systèmes d'alimentation en eau, de drainage et d'égouts.",
+            "img": "/service-3.png",
+            "works": {
+              "1": "- Installation des tuyaux d'alimentation en eau et des égouts;",
+              "2": "- Installation de divers dispositifs auxiliaires (compteurs, filtres, etc.);",
+              "3": "- Installation des éviers, baignoires, cabines de douche et toilettes;",
+              "4": "- Installation des systèmes de chauffage;",
+              "5": "- Raccordement des appareils électroménagers."
+            },
+            "button": "Plus de détails"
+          },
+          "4": {
+            "title": "Climatisation et chauffage",
+            "subTitle": "Installation, maintenance et réparation des systèmes CVC pour assurer un contrôle climatique efficace.",
+            "img": "/service-4.png",
+            "works": {
+              "1": "- Installation et maintenance des climatiseurs;",
+              "2": "- Installation et maintenance des systèmes de ventilation;",
+              "3": "- Installation et maintenance des chaudières de chauffage;",
+              "4": "- Installation et réglage des thermostats;",
+              "5": "- Installation des radiateurs de chauffage;",
+              "6": "- Installation de planchers chauffants;",
+              "7": "- Maintenance et réparation des systèmes de chauffage et de contrôle climatique;",
+              "8": "- Conception et installation des systèmes de contrôle climatique;",
+              "9": "- Installation et maintenance des humidificateurs et déshumidificateurs;",
+              "10": "- Inspection préventive et nettoyage des systèmes de chauffage et de climatisation."
+            },
+            "button": "Plus de détails"
+          },
+          "5": {
+            "title": "Piscines",
+            "subTitle": "Conception, construction et maintenance des piscines résidentielles et commerciales, y compris les systèmes de filtration, de chauffage et de sécurité.",
+            "img": "/service-5.png",
+            "works": {
+              "1": "- Conception des piscines;",
+              "2": "- Travaux de terrassement et préparation du site;",
+              "3": "- Construction et installation des piscines (béton armé, composite, piscines à cadre);",
+              "4": "- Installation et raccordement des systèmes de filtration;",
+              "5": "- Installation des systèmes de chauffage de l'eau;",
+              "6": "- Installation et réglage des systèmes d'éclairage de piscine;",
+              "7": "- Installation et réglage des systèmes automatiques de nettoyage de l'eau;",
+              "8": "- Installation des systèmes d'hydro-massage et d'air-massage;",
+              "9": "- Maintenance et réparation des piscines;",
+              "10": "- Nettoyage préventif et traitement de l'eau;",
+              "11": "- Installation et réglage des couvertures automatiques de piscine."
+            },
+            "button": "Plus de détails"
+          },
+          "6": {
+            "title": "Déménagements",
+            "subTitle": "Coordination et exécution des services de déménagement, y compris l'emballage, le transport et l'installation pour les propriétés résidentielles et commerciales.",
+            "img": "/service-6.png",
+            "works": {
+              "1": "- Évaluation de l'ampleur du travail et planification du déménagement;",
+              "2": "- Fourniture de matériaux d'emballage;",
+              "3": "- Emballage des meubles et des effets personnels;",
+              "4": "- Démontage et emballage des objets volumineux;",
+              "5": "- Chargement des biens dans le véhicule de transport;",
+              "6": "- Transport des biens vers le nouveau site;",
+              "7": "- Déchargement et déballage des biens;",
+              "8": "- Assemblage et installation des meubles au nouveau site;",
+              "9": "- Raccordement des appareils électroménagers;",
+              "10": "- Nettoyage des locaux après le déménagement;",
+              "11": "- Élimination des matériaux d'emballage."
+            },
+            "button": "Plus de détails"
+          },
+          "7": {
+            "title": "Démolition et enlèvement des déchets",
+            "subTitle": "Démolition sécurisée des structures et enlèvement efficace des débris et déchets des sites de construction et de démolition.",
+            "img": "/service-7.png",
+            "works": {
+              "1": "- Évaluation du volume et de la complexité du travail;",
+              "2": "- Préparation et clôture de la zone de travail;",
+              "3": "- Démolition des murs, cloisons et plafonds;",
+              "4": "- Démolition des bâtiments et structures;",
+              "5": "- Démolition des toits et des combles;",
+              "6": "- Enlèvement des sols et des revêtements de sol;",
+              "7": "- Enlèvement des appareils sanitaires et électriques;",
+              "8": "- Démontage des structures de fenêtres et de portes;",
+              "9": "- Tri et emballage des déchets de construction;",
+              "10": "- Chargement et enlèvement des débris de construction;",
+              "11": "- Nettoyage de la zone après les travaux de démolition."
+            },
+            "button": "Plus de détails"
+          },
+          "8": {
+            "title": "Soutien juridique",
+            "subTitle": "Services juridiques complets, y compris la consultation, la documentation et la représentation pour les projets de construction, garantissant la conformité et la résolution des problèmes juridiques.",
+            "img": "/service-8.png",
+            "works": {
+              "1": "- Consultation juridique;",
+              "2": "- Préparation et analyse des documents juridiques;",
+              "3": "- Rédaction et révision des contrats;",
+              "4": "- Support dans les transactions immobilières;",
+              "5": "- Supervision par un architecte;",
+              "6": "- Gestion des dossiers d'assurance."
+            },
+            "button": "Plus de détails"
+          }
+        }
+      },
+      "chooseUsSection": {
+        "title": "Pourquoi nous choisir",
+        "subTitle": "Pas seulement une entreprise de construction",
+        "reasons": {
+          "1": {
+            "title": "Maîtres expérimentés",
+            "subTitle": "Un travail de haute qualité est noté dans plus de 300 avis positifs."
+          },
+          "2": {
+            "title": "Service complet",
+            "subTitle": "Nous vous accompagnons à chaque étape de notre collaboration."
+          },
+          "3": {
+            "title": "Nous parlons votre langue.",
+            "subTitle": "Dans notre arsenal, nous avons les langues ukrainienne, russe, allemande, française, anglaise, italienne et néerlandaise."
+          }
+        }
+      },
+      "contactSection": {
+        "title": "Contact",
+        "subTitle": "Restez en contact",
+        "content": "Remplissez le formulaire ci-dessous et nous vous contacterons bientôt pour discuter de votre problème.",
+        "form": {
+          "name": "Nom",
+          "email": "E-mail",
+          "phone": "Téléphone",
+          "case": "Choisissez votre cas",
+          "message": "Votre message",
+          "button": "Nous contacter"
+        },
+        "contacts": {
+          "title": "Appelez-nous",
+          "content": "Besoin d'une réponse immédiate ? Habitué à résoudre les problèmes sur place ? Alors appelez l'un des numéros suivants :"
+        },
+        "alert": {
+          "success": "Votre message a été envoyé avec succès !",
+          "error": "Une erreur s'est produite. Veuillez réessayer."
+        }
+      }
+    },
+    "footer": {
+      "logo": "Bienvenue chez New Energy Development s.r.o.",
+      "contacts": {
+        "title": "Contactez-nous",
+        "email": "E-mail",
+        "phones": "Téléphones"
+      },
+      "map": "Plan du site :"
+    }
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "PageLayout": {
+    "header": {
+      "pageNav": {
+        "about": { "title": "Über uns" },
+        "services": { "title": "Leistungen" },
+        "portfolio": { "title": "Portfolio" },
+        "contact": { "title": "Kontakt" }
+      },
+      "phone": "+33758859618"
+    },
+    "body": {
+      "mainSection": {
+        "title": "Zukunft gestalten.",
+        "subTitle": "Umfassende Bau und Reparaturlösungen",
+        "content": "Vom Bau Ihres Traumhauses über die Aufwertung bestehender Räume bis hin zur Abwicklung von Reparaturen und der präzisen Verwaltung Ihres Immobilienvermögens sind wir bei jedem Schritt Ihr vertrauenswürdiger Partner.",
+        "button": "Kontaktieren Sie uns"
+      },
+      "aboutSection": {
+        "title": "Über uns",
+        "subTitle": "Wir arbeiten dafür, dass Sie Ihre Träume leben können",
+        "content1": "New Energy Development ist Ihr vertrauenswürdiger Partner für Immobilienmanagement und hochwertige Bau-Dienstleistungen an der Côte d'Azur in Frankreich und Monaco. Wir sind für viele zum bevorzugten Berater geworden, indem wir individuellen Service, Zuverlässigkeit, Professionalität und praktische Zahlungsoptionen bieten.",
+        "content2": "Gegründet im Jahr 2015, verfügen wir über alle notwendigen Lizenzen und Versicherungen für den Betrieb in Frankreich und Monaco.",
+        "achievements": {
+          "1": {
+            "title": "Über 7 Jahre Erfahrung",
+            "content": "Wir begleiten Sie bei jedem Schritt unserer Zusammenarbeit."
+          },
+          "2": {
+            "title": "Professionelles Team",
+            "content": "Die hohe Qualität unserer Arbeit wurde in über 300 positiven Bewertungen anerkannt."
+          },
+          "3": {
+            "title": "Vertrauenswürdige Partner",
+            "content": "Ein Netzwerk verifizierter Partner in verschiedenen Bereichen (Design, Möbelherstellung usw.)."
+          },
+          "4": {
+            "title": "Wir sprechen Ihre Sprache",
+            "content": "In unserem Arsenal haben wir die Sprachen Ukrainisch, Russisch, Deutsch, Französisch, Englisch, Italienisch und Niederländisch."
+          }
+        }
+      },
+      "servicesSection": {
+        "title": "Unsere Dienstleistungen",
+        "subTitle": "Hochwertige Arbeit jeder Komplexität",
+        "worksTitle": "Was ist in unseren Dienstleistungen enthalten?",
+        "services": {
+          "1": {
+            "title": "Technische Systeme",
+            "subTitle": "Planung, Installation und Wartung von technischen Netzwerken und Systemen.",
+            "img": "/service-1.png",
+            "works": {
+              "1": "- Planung von Gebäudetechniksystemen;",
+              "2": "- Installation und Wartung von Automations- und Leitsystemen;",
+              "3": "- Installation von Brandmelde- und Feuerlöschsystemen;",
+              "4": "- Installation von Sicherheits- und Videosicherungssystemen;"
+            },
+            "button": "Mehr Details"
+          },
+          "2": {
+            "title": "Elektroarbeiten",
+            "subTitle": "Installation, Wartung und Reparatur von elektrischen Systemen und Verkabelungen.",
+            "img": "/service-2.png",
+            "works": {
+              "1": "- Installation und Austausch von Elektroinstallationen;",
+              "2": "- Installation und Austausch von Steckdosen und Schaltern;",
+              "3": "- Anschluss und Installation von Beleuchtungskörpern (Lüster, Lampen, Wandleuchten usw.);",
+              "4": "- Installation und Anschluss von Schalttafeln und Sicherungen;",
+              "5": "- Installation und Anschluss von Elektrogeräten (Elektroherde, Warmwasserbereiter usw.);",
+              "6": "- Durchführung von elektrischen Messungen und Netzwerktests;",
+              "7": "- Reparatur und Wartung von elektrischen Systemen;",
+              "8": "- Installation von Erdungs- und Blitzschutzsystemen;",
+              "9": "- Einrichtung und Installation von Smart Home-Systemen;",
+              "10": "- Anschluss von Haushaltsgeräten und Elektronik."
+            },
+            "button": "Mehr Details"
+          },
+          "3": {
+            "title": "Sanitär",
+            "subTitle": "Installation, Reparatur und Wartung von Wasserversorgungs-, Abwasser- und Abwassersystemen.",
+            "img": "/service-3.png",
+            "works": {
+              "1": "- Installation von Wasserversorgungs- und Abwasserrohren;",
+              "2": "- Installation verschiedener Hilfseinrichtungen (Messgeräte, Filter usw.);",
+              "3": "- Installation von Waschbecken, Badewannen, Duschkabinen und Toiletten;",
+              "4": "- Installation von Heizsystemen;",
+              "5": "- Anschluss von Haushaltsgeräten."
+            },
+            "button": "Mehr Details"
+          },
+          "4": {
+            "title": "Klima- und Heiztechnik",
+            "subTitle": "Installation, Wartung und Reparatur von HVAC-Systemen zur effizienten Klimaregelung.",
+            "img": "/service-4.png",
+            "works": {
+              "1": "- Installation und Wartung von Klimaanlagen;",
+              "2": "- Installation und Wartung von Lüftungssystemen;",
+              "3": "- Installation und Wartung von Heizkesseln;",
+              "4": "- Installation und Einstellung von Thermostaten;",
+              "5": "- Installation von Heizkörpern;",
+              "6": "- Installation von Fußbodenheizung;",
+              "7": "- Wartung und Reparatur von Heiz- und Klimaanlagen;",
+              "8": "- Design und Installation von Klimaregelungssystemen;",
+              "9": "- Installation und Wartung von Luftbefeuchtern und Entfeuchtern;",
+              "10": "- Vorbeugende Inspektion und Reinigung von Heiz- und Klimaanlagensystemen."
+            },
+            "button": "Mehr Details"
+          },
+          "5": {
+            "title": "Schwimmbäder",
+            "subTitle": "Planung, Bau und Wartung von privaten und kommerziellen Schwimmbädern, einschließlich Filter-, Heiz- und Sicherheitssystemen.",
+            "img": "/service-5.png",
+            "works": {
+              "1": "- Planung von Schwimmbädern;",
+              "2": "- Erdarbeiten und Geländevorbereitung;",
+              "3": "- Bau und Installation von Schwimmbädern (Stahlbeton, Verbundwerkstoffe, Rahmenpools);",
+              "4": "- Installation und Anschluss von Filtersystemen;",
+              "5": "- Installation von Wassererwärmungssystemen;",
+              "6": "- Installation und Einstellung von Poolbeleuchtungssystemen;",
+              "7": "- Installation und Einstellung von automatischen Wasserreinigungssystemen;",
+              "8": "- Installation von Hydromassage- und Luftmassage-Systemen;",
+              "9": "- Wartung und Reparatur von Schwimmbädern;",
+              "10": "- Vorbeugende Reinigung und Wasserbehandlung;",
+              "11": "- Installation und Einstellung von automatischen Poolabdeckungen."
+            },
+            "button": "Mehr Details"
+          },
+          "6": {
+            "title": "Umzüge",
+            "subTitle": "Koordination und Durchführung von Umzugsdienstleistungen, einschließlich Verpackung, Transport und Einrichtung für Wohn- und Gewerbeimmobilien.",
+            "img": "/service-6.png",
+            "works": {
+              "1": "- Bewertung des Arbeitsumfangs und Planung des Umzugs;",
+              "2": "- Bereitstellung von Verpackungsmaterialien;",
+              "3": "- Verpackung von Möbeln und persönlichen Gegenständen;",
+              "4": "- Demontage und Verpackung von großen Gegenständen;",
+              "5": "- Beladung der Gegenstände in das Transportfahrzeug;",
+              "6": "- Transport der Gegenstände an den neuen Standort;",
+              "7": "- Entladen und Auspacken der Gegenstände;",
+              "8": "- Montage und Installation von Möbeln am neuen Standort;",
+              "9": "- Anschluss von Haushaltsgeräten;",
+              "10": "- Reinigung der Räumlichkeiten nach dem Umzug;",
+              "11": "- Entsorgung von Verpackungsmaterialien."
+            },
+            "button": "Mehr Details"
+          },
+          "7": {
+            "title": "Demontage und Entsorgung",
+            "subTitle": "Sichere Demontage von Strukturen und effiziente Entsorgung von Abfällen und Schutt von Baustellen und Abrissstellen.",
+            "img": "/service-7.png",
+            "works": {
+              "1": "- Bewertung des Volumens und der Komplexität der Arbeit;",
+              "2": "- Vorbereitung und Abgrenzung des Arbeitsbereichs;",
+              "3": "- Demontage von Wänden, Trennwänden und Decken;",
+              "4": "- Abriss von Gebäuden und Strukturen;",
+              "5": "- Demontage von Dächern und Dachböden;",
+              "6": "- Entfernung von Böden und Bodenbelägen;",
+              "7": "- Entfernung von Sanitär- und Elektrogeräten;",
+              "8": "- Demontage von Fenster- und Türkonstruktionen;",
+              "9": "- Sortierung und Verpackung von Bauschutt;",
+              "10": "- Laden und Entsorgung von Bauschutt;",
+              "11": "- Reinigung des Bereichs nach Abrissarbeiten."
+            },
+            "button": "Mehr Details"
+          },
+          "8": {
+            "title": "Rechtliche Unterstützung",
+            "subTitle": "Umfassende rechtliche Dienstleistungen einschließlich Beratung, Dokumentation und Vertretung für Bauvorhaben, um die Einhaltung zu gewährleisten und rechtliche Probleme zu lösen.",
+            "img": "/service-8.png",
+            "works": {
+              "1": "- Rechtsberatung;",
+              "2": "- Erstellung und Analyse von Rechtsdokumenten;",
+              "3": "- Erstellung und Überprüfung von Verträgen;",
+              "4": "- Unterstützung bei Immobiliengeschäften;",
+              "5": "- Überwachung durch einen Architekten;",
+              "6": "- Bearbeitung von Versicherungsfällen."
+            },
+            "button": "Mehr Details"
+          }
+        }
+      },
+      "chooseUsSection": {
+        "title": "Warum uns wählen",
+        "subTitle": "Nicht nur ein Bauunternehmen",
+        "reasons": {
+          "1": {
+            "title": "Erfahrene Meister",
+            "subTitle": "Hochwertige Arbeit wird in über 300 positiven Bewertungen hervorgehoben."
+          },
+          "2": {
+            "title": "Umfassender Service",
+            "subTitle": "Wir begleiten Sie bei jedem Schritt unserer Zusammenarbeit."
+          },
+          "3": {
+            "title": "Wir sprechen Ihre Sprache.",
+            "subTitle": "In unserem Arsenal haben wir die Sprachen Ukrainisch, Russisch, Deutsch, Französisch, Englisch, Italienisch und Niederländisch."
+          }
+        }
+      },
+      "contactSection": {
+        "title": "Kontakt",
+        "subTitle": "In Kontakt bleiben",
+        "content": "Füllen Sie das unten stehende Formular aus, und wir werden uns bald mit Ihnen in Verbindung setzen, um Ihr Anliegen zu besprechen.",
+        "form": {
+          "name": "Name",
+          "email": "E-Mail",
+          "phone": "Telefon",
+          "case": "Wählen Sie Ihren Fall",
+          "message": "Ihre Nachricht",
+          "button": "Kontaktieren Sie uns"
+        },
+        "contacts": {
+          "title": "Rufen Sie uns an",
+          "content": "Benötigen Sie eine sofortige Antwort? Gewohnt, Probleme vor Ort zu lösen? Dann rufen Sie eine der aufgeführten Nummern an:"
+        },
+        "alert": {
+          "success": "Ihre Nachricht wurde gesendet!",
+          "error": "Etwas ist schief gelaufen! Bitte versuchen Sie es erneut."
+        }
+      }
+    },
+    "footer": {
+      "logo": "Willkommen bei New Energy Development s.r.o.",
+      "contacts": {
+        "title": "Kontaktieren Sie uns",
+        "email": "E-Mail",
+        "phones": "Telefonnummern"
+      },
+      "map": "Seitenverzeichnis:"
+    }
+  }
+}
