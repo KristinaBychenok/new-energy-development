@@ -6,7 +6,8 @@
         "services": { "title": "Diensten" },
         "portfolio": { "title": "Portfolio" },
         "contact": { "title": "Contact" }
-      }
+      },
+      "phone": "+33758859618"
     },
     "body": {
       "mainSection": {
@@ -17,37 +18,163 @@
       },
       "aboutSection": {
         "title": "Over ons",
-        "subTitle": "We werken zodat jij in je dromen kunt leven",
-        "content": "New Energy Development is uw vertrouwde partner voor vastgoedbeheer en hoogwaardige bouwdiensten in de regio Côte d'Azur in Frankrijk en Monaco. We zijn uitgegroeid tot een vertrouwde adviseur voor velen, met gepersonaliseerde service, betrouwbaarheid, professionaliteit en handige betalingsopties. Opgericht in 2015, beschikken we over alle nodige licenties en verzekeringen voor activiteiten in Frankrijk en Monaco."
+        "subTitle": "Wij werken zodat u in uw dromen kunt leven",
+        "content1": "New Energy Development is uw vertrouwde partner voor vastgoedbeheer en hoogwaardige bouwdiensten aan de Côte d'Azur in Frankrijk en Monaco. We zijn voor velen een go-to adviseur geworden, met persoonlijke service, betrouwbaarheid, professionaliteit en handige betalingsopties.",
+        "content2": "Opgericht in 2015, bezitten we alle noodzakelijke licenties en verzekeringen voor operaties in Frankrijk en Monaco.",
+        "achievements": {
+          "1": {
+            "title": "Meer dan 7 jaar ervaring",
+            "content": "We begeleiden u op elk moment van onze samenwerking."
+          },
+          "2": {
+            "title": "Professioneel team",
+            "content": "De hoge kwaliteit van ons werk is opgemerkt in meer dan 300 positieve beoordelingen."
+          },
+          "3": {
+            "title": "Vertrouwde partners",
+            "content": "Een netwerk van geverifieerde partners in verschillende vakgebieden (ontwerp, meubelproductie, enz.)."
+          },
+          "4": {
+            "title": "Spreek uw taal",
+            "content": "In ons arsenaal hebben we Oekraïens, Russisch, Duits, Frans, Engels, Italiaans en Nederlands."
+          }
+        }
       },
       "servicesSection": {
         "title": "Onze diensten",
-        "subTitle": "Hoogwaardig werk van elke complexiteit",
+        "subTitle": "Werk van hoge kwaliteit van elke complexiteit",
+        "worksTitle": "Wat is inbegrepen in onze diensten?",
         "services": {
-          "Repair": {
-            "title": "Reparatie- en bouwwerkzaamheden",
-            "subTitle": "Sleutelklare bouw en maatwerkopdrachten",
+          "1": {
+            "title": "Ingenieurssystemen",
+            "subTitle": "Ontwerp, installatie en onderhoud van netwerken en systemen.",
             "img": "/service-1.png",
-            "services": [
-              "Opbouw van fundering en betonwerken",
-              "Loodgieterswerkzaamheden",
-              "Slimme woninginstallatie",
-              "Huisinrichting",
-              "Elektrische werken"
-            ],
+            "works": {
+              "1": "- Ontwerp van gebouwensystemen;",
+              "2": "- Installatie en onderhoud van automatiserings- en beheer systemen;",
+              "3": "- Installatie van brandalarm- en blussystemen;",
+              "4": "- Installatie van beveiligings- en videobewakingssystemen;"
+            },
             "button": "Meer details"
           },
-          "Installation": {
-            "title": "Installatiewerkzaamheden",
-            "subTitle": "Sleutelklare bouw en maatwerkopdrachten",
+          "2": {
+            "title": "Elektrisch werk",
+            "subTitle": "Installatie, onderhoud en reparatie van elektrische systemen en bedrading.",
             "img": "/service-2.png",
-            "services": [
-              "Opbouw van fundering en betonwerken",
-              "Loodgieterswerkzaamheden",
-              "Slimme woninginstallatie",
-              "Huisinrichting",
-              "Elektrische werken"
-            ],
+            "works": {
+              "1": "- Installatie en vervanging van elektrische bedrading;",
+              "2": "- Installatie en vervanging van stopcontacten en schakelaars;",
+              "3": "- Aansluiting en installatie van verlichtingsarmaturen (kroonluchters, lampen, wandlampen, enz.);",
+              "4": "- Installatie en aansluiting van schakelkasten en zekeringen;",
+              "5": "- Installatie en aansluiting van elektrische apparaten (elektrische fornuizen, boilers, enz.);",
+              "6": "- Uitvoering van elektrische metingen en netwerk testen;",
+              "7": "- Reparatie en onderhoud van elektrische systemen;",
+              "8": "- Installatie van aardings- en bliksembeveiligingssystemen;",
+              "9": "- Configuratie en installatie van smart home systemen;",
+              "10": "- Aansluiting van huishoudelijke apparaten en elektronica."
+            },
+            "button": "Meer details"
+          },
+          "3": {
+            "title": "Loodgieterswerk",
+            "subTitle": "Installatie, reparatie en onderhoud van waterleidingen, afvoeren en rioleringssystemen.",
+            "img": "/service-3.png",
+            "works": {
+              "1": "- Installatie van waterleidingen en afvoeren;",
+              "2": "- Installatie van diverse hulpprogramma's (meters, filters, enz.);",
+              "3": "- Installatie van wastafels, badkuipen, douches en toiletten;",
+              "4": "- Installatie van verwarmingssystemen;",
+              "5": "- Aansluiting van huishoudelijke apparaten."
+            },
+            "button": "Meer details"
+          },
+          "4": {
+            "title": "Airconditioning en verwarming",
+            "subTitle": "Installatie, onderhoud en reparatie van HVAC-systemen voor efficiënte klimaatbeheersing.",
+            "img": "/service-4.png",
+            "works": {
+              "1": "- Installatie en onderhoud van airconditioners;",
+              "2": "- Installatie en onderhoud van ventilatiesystemen;",
+              "3": "- Installatie en onderhoud van verwarmingsketels;",
+              "4": "- Installatie en afstelling van thermostaten;",
+              "5": "- Installatie van verwarmingsradiatoren;",
+              "6": "- Installatie van vloerverwarming;",
+              "7": "- Onderhoud en reparatie van verwarmings- en klimaatbeheersingssystemen;",
+              "8": "- Ontwerp en installatie van klimaatbeheersingssystemen;",
+              "9": "- Installatie en onderhoud van luchtbevochtigers en luchtontvochtigers;",
+              "10": "- Preventieve inspectie en reiniging van verwarmings- en airconditioningsystemen."
+            },
+            "button": "Meer details"
+          },
+          "5": {
+            "title": "Zwembaden",
+            "subTitle": "Ontwerp, bouw en onderhoud van residentiële en commerciële zwembaden, inclusief filtratie-, verwarmings- en veiligheidssystemen.",
+            "img": "/service-5.png",
+            "works": {
+              "1": "- Ontwerp van zwembaden;",
+              "2": "- Graafwerkzaamheden en voorbereiding van de locatie;",
+              "3": "- Bouw en installatie van zwembaden (gewapend beton, composiet, frame zwembaden);",
+              "4": "- Installatie en aansluiting van filtratiesystemen;",
+              "5": "- Installatie van waterverwarmingssystemen;",
+              "6": "- Installatie en afstelling van zwembadverlichtingssystemen;",
+              "7": "- Installatie en afstelling van automatische waterreinigingssystemen;",
+              "8": "- Installatie van hydro- en luchtmassagesystemen;",
+              "9": "- Onderhoud en reparatie van zwembaden;",
+              "10": "- Preventieve reiniging en waterbehandeling;",
+              "11": "- Installatie en afstelling van automatische zwembad afdekkingen."
+            },
+            "button": "Meer details"
+          },
+          "6": {
+            "title": "Verhuizingen",
+            "subTitle": "Coördinatie en uitvoering van verhuisdiensten, inclusief inpakken, transport en installatie voor residentiële en commerciële panden.",
+            "img": "/service-6.png",
+            "works": {
+              "1": "- Beoordeling van de omvang van het werk en planning van de verhuizing;",
+              "2": "- Verstrekking van verpakkingsmaterialen;",
+              "3": "- Inpakken van meubels en persoonlijke bezittingen;",
+              "4": "- Demontage en inpakken van grote voorwerpen;",
+              "5": "- Laden van bezittingen in het transportvoertuig;",
+              "6": "- Transport van bezittingen naar de nieuwe locatie;",
+              "7": "- Uitladen en uitpakken van bezittingen;",
+              "8": "- Montage en installatie van meubels op de nieuwe locatie;",
+              "9": "- Aansluiting van huishoudelijke apparaten;",
+              "10": "- Schoonmaken van de ruimtes na de verhuizing;",
+              "11": "- Verwijdering van verpakkingsmaterialen."
+            },
+            "button": "Meer details"
+          },
+          "7": {
+            "title": "Demonteren en afval verwijderen",
+            "subTitle": "Veilige demontage van structuren en efficiënte verwijdering van puin en afval van bouw- en slooplocaties.",
+            "img": "/service-7.png",
+            "works": {
+              "1": "- Beoordeling van het volume en de complexiteit van het werk;",
+              "2": "- Voorbereiding en afzetting van het werkgebied;",
+              "3": "- Sloop van muren, scheidingswanden en plafonds;",
+              "4": "- Sloop van gebouwen en constructies;",
+              "5": "- Sloop van daken en zolderruimtes;",
+              "6": "- Verwijdering van vloeren en vloerbedekking;",
+              "7": "- Verwijdering van sanitair en elektrische apparaten;",
+              "8": "- Demontage van raam- en deurstructuren;",
+              "9": "- Sorteren en verpakken van bouwafval;",
+              "10": "- Laden en verwijderen van bouwafval;",
+              "11": "- Schoonmaken van het gebied na sloopwerkzaamheden."
+            },
+            "button": "Meer details"
+          },
+          "8": {
+            "title": "Juridische ondersteuning",
+            "subTitle": "Omvattende juridische diensten inclusief advies, documentatie en vertegenwoordiging voor bouwprojecten, waarbij naleving wordt gegarandeerd en juridische problemen worden opgelost.",
+            "img": "/service-8.png",
+            "works": {
+              "1": "- Juridisch advies;",
+              "2": "- Voorbereiding en analyse van juridische documenten;",
+              "3": "- Opstellen en herzien van contracten;",
+              "4": "- Ondersteuning bij vastgoedtransacties;",
+              "5": "- Toezicht door een architect;",
+              "6": "- Behandeling van verzekeringszaken."
+            },
             "button": "Meer details"
           }
         }
@@ -81,6 +208,14 @@
           "case": "Kies uw geval",
           "message": "Uw bericht",
           "button": "Neem contact met ons op"
+        },
+        "contacts": {
+          "title": "Bel ons",
+          "content": "Heeft u een onmiddellijk antwoord nodig? Gewend om problemen ter plaatse op te lossen? Bel dan een van de vermelde nummers:"
+        },
+        "alert": {
+          "success": "Uw bericht is verzonden!",
+          "error": "Er is iets misgegaan! Probeer het alstublieft opnieuw."
         }
       }
     },

@@ -6,7 +6,8 @@
         "services": { "title": "Servizi" },
         "portfolio": { "title": "Portafoglio" },
         "contact": { "title": "Contatti" }
-      }
+      },
+      "phone": "+33758859618"
     },
     "body": {
       "mainSection": {
@@ -18,37 +19,163 @@
       "aboutSection": {
         "title": "Chi siamo",
         "subTitle": "Lavoriamo perché tu possa vivere nei tuoi sogni",
-        "content": "New Energy Development è il tuo partner di fiducia per la gestione immobiliare e i servizi di costruzione di alta qualità nella regione della Costa Azzurra in Francia e a Monaco. Siamo diventati un consulente di riferimento per molti, offrendo un servizio personalizzato, affidabilità, professionalità e opzioni di pagamento comode. Fondata nel 2015, disponiamo di tutte le licenze e le assicurazioni necessarie per operare in Francia e a Monaco."
+        "content1": "New Energy Development è il tuo partner di fiducia per la gestione immobiliare e servizi di costruzione di alta qualità nella regione della Costa Azzurra in Francia e a Monaco. Siamo diventati consulenti di riferimento per molti, offrendo un servizio personalizzato, affidabilità, professionalità e opzioni di pagamento convenienti.",
+        "content2": "Fondata nel 2015, disponiamo di tutte le licenze e le assicurazioni necessarie per operare in Francia e a Monaco.",
+        "achievements": {
+          "1": {
+            "title": "Oltre 7 anni di esperienza",
+            "content": "Ti accompagniamo in ogni passo della nostra collaborazione."
+          },
+          "2": {
+            "title": "Team professionale",
+            "content": "L'alta qualità del nostro lavoro è stata nota in oltre 300 recensioni positive."
+          },
+          "3": {
+            "title": "Partner affidabili",
+            "content": "Una rete di partner verificati in vari settori (design, produzione di mobili, ecc.)."
+          },
+          "4": {
+            "title": "Parliamo la tua lingua",
+            "content": "Nel nostro arsenale abbiamo le lingue ucraina, russa, tedesca, francese, inglese, italiana e olandese."
+          }
+        }
       },
       "servicesSection": {
         "title": "I nostri servizi",
-        "subTitle": "Lavori di alta qualità di qualsiasi complessità",
+        "subTitle": "Lavoro di alta qualità di qualsiasi complessità",
+        "worksTitle": "Cosa è incluso nei nostri servizi?",
         "services": {
-          "Repair": {
-            "title": "Lavori di riparazione e costruzione",
-            "subTitle": "Costruzione chiavi in mano e ordini personalizzati",
+          "1": {
+            "title": "Sistemi di ingegneria",
+            "subTitle": "Progettazione, installazione e manutenzione di reti e sistemi di ingegneria.",
             "img": "/service-1.png",
-            "services": [
-              "Erezione di fondamenta e lavori in cemento",
-              "Lavori di idraulica",
-              "Installazione di smart home",
-              "Arredamento casa",
-              "Lavori elettrici"
-            ],
-            "button": "Maggiori dettagli"
+            "works": {
+              "1": "- Progettazione dei sistemi di ingegneria degli edifici;",
+              "2": "- Installazione e manutenzione dei sistemi di automazione e gestione;",
+              "3": "- Installazione dei sistemi di allarme antincendio e spegnimento incendi;",
+              "4": "- Installazione di sistemi di sicurezza e videosorveglianza;"
+            },
+            "button": "Più dettagli"
           },
-          "Installation": {
-            "title": "Lavori di installazione",
-            "subTitle": "Costruzione chiavi in mano e ordini personalizzati",
+          "2": {
+            "title": "Lavori elettrici",
+            "subTitle": "Installazione, manutenzione e riparazione di impianti elettrici e cablaggi.",
             "img": "/service-2.png",
-            "services": [
-              "Erezione di fondamenta e lavori in cemento",
-              "Lavori di idraulica",
-              "Installazione di smart home",
-              "Arredamento casa",
-              "Lavori elettrici"
-            ],
-            "button": "Maggiori dettagli"
+            "works": {
+              "1": "- Installazione e sostituzione dei cablaggi elettrici;",
+              "2": "- Installazione e sostituzione di prese e interruttori;",
+              "3": "- Collegamento e installazione di apparecchi di illuminazione (lampadari, lampade, applique, ecc.);",
+              "4": "- Installazione e collegamento di quadri elettrici e interruttori automatici;",
+              "5": "- Installazione e collegamento di elettrodomestici (forni elettrici, scaldabagni, ecc.);",
+              "6": "- Esecuzione di misurazioni elettriche e test di rete;",
+              "7": "- Riparazione e manutenzione degli impianti elettrici;",
+              "8": "- Installazione di sistemi di messa a terra e protezione contro i fulmini;",
+              "9": "- Configurazione e installazione di sistemi di domotica;",
+              "10": "- Collegamento di elettrodomestici ed elettronica."
+            },
+            "button": "Più dettagli"
+          },
+          "3": {
+            "title": "Lavori idraulici",
+            "subTitle": "Installazione, riparazione e manutenzione di impianti idraulici, di drenaggio e fognari.",
+            "img": "/service-3.png",
+            "works": {
+              "1": "- Installazione di tubature dell'acqua e delle fogne;",
+              "2": "- Installazione di vari dispositivi ausiliari (contatori, filtri, ecc.);",
+              "3": "- Installazione di lavandini, vasche da bagno, cabine doccia e toilette;",
+              "4": "- Installazione di sistemi di riscaldamento;",
+              "5": "- Collegamento di elettrodomestici."
+            },
+            "button": "Più dettagli"
+          },
+          "4": {
+            "title": "Condizionamento e riscaldamento",
+            "subTitle": "Installazione, manutenzione e riparazione di sistemi HVAC per garantire un controllo climatico efficiente.",
+            "img": "/service-4.png",
+            "works": {
+              "1": "- Installazione e manutenzione di condizionatori d'aria;",
+              "2": "- Installazione e manutenzione di sistemi di ventilazione;",
+              "3": "- Installazione e manutenzione di caldaie per il riscaldamento;",
+              "4": "- Installazione e regolazione di termostati;",
+              "5": "- Installazione di radiatori;",
+              "6": "- Installazione di riscaldamento a pavimento;",
+              "7": "- Manutenzione e riparazione di sistemi di riscaldamento e climatizzazione;",
+              "8": "- Progettazione e installazione di sistemi di controllo climatico;",
+              "9": "- Installazione e manutenzione di umidificatori e deumidificatori;",
+              "10": "- Ispezione preventiva e pulizia di sistemi di riscaldamento e condizionamento."
+            },
+            "button": "Più dettagli"
+          },
+          "5": {
+            "title": "Piscine",
+            "subTitle": "Progettazione, costruzione e manutenzione di piscine residenziali e commerciali, inclusi sistemi di filtrazione, riscaldamento e sicurezza.",
+            "img": "/service-5.png",
+            "works": {
+              "1": "- Progettazione di piscine;",
+              "2": "- Lavori di scavo e preparazione del sito;",
+              "3": "- Costruzione e installazione di piscine (cemento armato, composite, piscine a struttura);",
+              "4": "- Installazione e collegamento di sistemi di filtrazione;",
+              "5": "- Installazione di sistemi di riscaldamento dell'acqua;",
+              "6": "- Installazione e regolazione di sistemi di illuminazione della piscina;",
+              "7": "- Installazione e regolazione di sistemi automatici di pulizia dell'acqua;",
+              "8": "- Installazione di sistemi di idromassaggio e airmassaggio;",
+              "9": "- Manutenzione e riparazione di piscine;",
+              "10": "- Pulizia preventiva e trattamento dell'acqua;",
+              "11": "- Installazione e regolazione di coperture automatiche per piscine."
+            },
+            "button": "Più dettagli"
+          },
+          "6": {
+            "title": "Traslochi",
+            "subTitle": "Coordinamento e esecuzione dei servizi di trasloco, inclusi imballaggio, trasporto e installazione per proprietà residenziali e commerciali.",
+            "img": "/service-6.png",
+            "works": {
+              "1": "- Valutazione dell'entità del lavoro e pianificazione del trasloco;",
+              "2": "- Fornitura di materiali per l'imballaggio;",
+              "3": "- Imballaggio di mobili e oggetti personali;",
+              "4": "- Smontaggio e imballaggio di oggetti di grandi dimensioni;",
+              "5": "- Caricamento degli oggetti nel veicolo di trasporto;",
+              "6": "- Trasporto degli oggetti alla nuova sede;",
+              "7": "- Scaricamento e disimballaggio degli oggetti;",
+              "8": "- Montaggio e installazione dei mobili nella nuova sede;",
+              "9": "- Collegamento degli elettrodomestici;",
+              "10": "- Pulizia dei locali dopo il trasloco;",
+              "11": "- Smaltimento dei materiali di imballaggio."
+            },
+            "button": "Più dettagli"
+          },
+          "7": {
+            "title": "Demolizione e rimozione dei rifiuti",
+            "subTitle": "Demolizione sicura delle strutture e rimozione efficiente dei detriti e dei rifiuti dai cantieri e dai siti di demolizione.",
+            "img": "/service-7.png",
+            "works": {
+              "1": "- Valutazione del volume e della complessità del lavoro;",
+              "2": "- Preparazione e recinzione dell'area di lavoro;",
+              "3": "- Demolizione di pareti, tramezzi e soffitti;",
+              "4": "- Demolizione di edifici e strutture;",
+              "5": "- Demolizione di tetti e soffitte;",
+              "6": "- Rimozione di pavimenti e rivestimenti;",
+              "7": "- Rimozione di impianti idraulici ed elettrici;",
+              "8": "- Smontaggio di strutture di finestre e porte;",
+              "9": "- Smistamento e imballaggio dei rifiuti di costruzione;",
+              "10": "- Caricamento e rimozione dei detriti di costruzione;",
+              "11": "- Pulizia dell'area dopo i lavori di demolizione."
+            },
+            "button": "Più dettagli"
+          },
+          "8": {
+            "title": "Supporto legale",
+            "subTitle": "Servizi legali completi inclusi consulenza, documentazione e rappresentanza per progetti di costruzione, garantendo conformità e risoluzione delle questioni legali.",
+            "img": "/service-8.png",
+            "works": {
+              "1": "- Consulenza legale;",
+              "2": "- Preparazione e analisi di documenti legali;",
+              "3": "- Redazione e revisione di contratti;",
+              "4": "- Supporto nelle transazioni immobiliari;",
+              "5": "- Supervisione da parte di un architetto;",
+              "6": "- Gestione dei casi di assicurazione."
+            },
+            "button": "Più dettagli"
           }
         }
       },
@@ -81,6 +208,14 @@
           "case": "Scegli il tuo caso",
           "message": "Il tuo messaggio",
           "button": "Contattaci"
+        },
+        "contacts": {
+          "title": "Chiamaci",
+          "content": "Hai bisogno di una risposta immediata? Abituato a risolvere i problemi sul posto? Allora chiama uno dei numeri elencati:"
+        },
+        "alert": {
+          "success": "Il tuo messaggio è stato inviato!",
+          "error": "Si è verificato un errore! Si prega di riprovare."
         }
       }
     },

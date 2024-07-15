@@ -28,13 +28,15 @@ export const LangSwitcher = () => {
 
   return (
     <Box>
-      <div className="flex flex-row items-center justify-center pl-6 py-1">
+      <div
+        className="flex flex-row items-center justify-center px-6 py-1"
+        onClick={handleOpenLangMenu}
+      >
         <IconButton
           size="small"
           aria-label="languege switcher"
           aria-controls="menu-appbar-lang-switcher"
           aria-haspopup="true"
-          onClick={handleOpenLangMenu}
           color="inherit"
         >
           <LanguageIcon className="text-blue-default w-4 h-4" />

@@ -7,6 +7,7 @@ import FacebookIcon from '@mui/icons-material/Facebook'
 import WhatsAppIcon from '@mui/icons-material/WhatsApp'
 import TelegramIcon from '@mui/icons-material/Telegram'
 import Link from 'next/link'
+import { Logo } from '../header/logo'
 
 export const Footer = () => {
   const t = useTranslations('PageLayout.footer')
@@ -19,18 +20,12 @@ export const Footer = () => {
           {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
           <div className="w-full laptop:w-[320px] tablet:col-span-2 laptop:col-span-1 flex flex-col tablet:flex-row items-start justify-between laptop:flex-col">
             <Link href={`/`} className="flex flex-col grow font-bold">
-              <Typography
-                variant="h6"
-                noWrap
-                className="flex font-bold decoration-0"
-              >
-                LOGO
-              </Typography>
+              <Logo color="#FFFFFF" />
               <Typography className="w-[300px] font-mont text-white font-normal leading-6 text-16">
                 {t('logo')}
               </Typography>
             </Link>
-            <div className="laptop:pt-4 flex">
+            {/* <div className="laptop:pt-4 flex">
               <IconButton aria-label="Instagram">
                 <InstagramIcon fontSize="large" />
               </IconButton>
@@ -43,7 +38,7 @@ export const Footer = () => {
               <IconButton aria-label="Telegram">
                 <TelegramIcon fontSize="large" />
               </IconButton>
-            </div>
+            </div> */}
           </div>
           {/* </Toolbar> */}
           <div className="w-[320px]">

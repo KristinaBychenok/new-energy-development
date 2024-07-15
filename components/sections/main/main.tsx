@@ -9,7 +9,7 @@ export const MainInformation = () => {
   const t = useTranslations('PageLayout.body.mainSection')
 
   return (
-    <div className="relative flex flex-col w-full bg-beige pt-10 tablet:py-10 desktop:py-[90px]">
+    <div className="relative flex flex-col w-full bg-beige pt-10 tablet:py-10 desktop:py-20">
       <ContentWrapper>
         <div className="w-full tablet:w-[324px] laptop:w-[424px] desktop:w-[536px]">
           <Typography

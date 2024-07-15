@@ -6,7 +6,8 @@
         "services": { "title": "Services" },
         "portfolio": { "title": "Portfolio" },
         "contact": { "title": "Contact" }
-      }
+      },
+      "phone": "+33758859618"
     },
     "body": {
       "mainSection": {
@@ -18,36 +19,162 @@
       "aboutSection": {
         "title": "About us",
         "subTitle": "We work so that you live in your dreams",
-        "content": "New Energy Development is your trusted partner for property management and high-quality construction services in the Cote d'Azur region of France and Monaco. We've become a go-to consultant for many, offering personalized service, reliability, professionalism, and convenient payment options. Established in 2015, we hold all necessary licenses and insurance for operations in France and Monaco."
+        "content1": "New Energy Development is your trusted partner for property management and high-quality construction services in the Cote d'Azur region of France and Monaco. We've become a go-to consultant for many, offering personalized service, reliability, professionalism, and convenient payment options.",
+        "content2": "Established in 2015, we hold all necessary licenses and insurance for operations in France and Monaco.",
+        "achievements": {
+          "1": {
+            "title": "7+ years experience",
+            "content": "We accompany you every step of our collaboration."
+          },
+          "2": {
+            "title": "Professional team",
+            "content": "The high quality of work has been noted in over 300 positive reviews."
+          },
+          "3": {
+            "title": "Trusted partners",
+            "content": "A network of verified partners across various fields (design, furniture manufacturing, etc.)."
+          },
+          "4": {
+            "title": "Speak your language",
+            "content": "In our arsenal, we have Ukrainian, Russian, German, French, English, Italian, and Dutch languages."
+          }
+        }
       },
       "servicesSection": {
         "title": "Our services",
         "subTitle": "High-quality work of any complexity",
+        "worksTitle": "What is included in our services?",
         "services": {
-          "Repair": {
-            "title": "Repair and construction works",
-            "subTitle": "Turnkey construction and custom orders",
+          "1": {
+            "title": "Engineering systems",
+            "subTitle": "Design, installation and maintenance of engineering networks and systems.",
             "img": "/service-1.png",
-            "services": [
-              "Erection of foundation and concrete works",
-              "Plumbing works",
-              "Smart home setup",
-              "House furnishing",
-              "Electrical works"
-            ],
+            "works": {
+              "1": "- Design of building engineering systems;",
+              "2": "- Installation and maintenance of automation and dispatch systems;",
+              "3": "- Installation of fire alarm and fire extinguishing systems;",
+              "4": "- Installation of security and video surveillance systems;"
+            },
             "button": "More details"
           },
-          "Installation": {
-            "title": "Installation works",
-            "subTitle": "Turnkey construction and custom orders",
+          "2": {
+            "title": "Electrical work",
+            "subTitle": "Installation, maintenance, and repair of electrical systems and wiring.",
             "img": "/service-2.png",
-            "services": [
-              "Erection of foundation and concrete works",
-              "Plumbing works",
-              "Smart home setup",
-              "House furnishing",
-              "Electrical works"
-            ],
+            "works": {
+              "1": "- Installation and replacement of electrical wiring;",
+              "2": "- Installation and replacement of outlets and switches;",
+              "3": "- Connection and installation of lighting fixtures (chandeliers, lamps, wall lights, etc.);",
+              "4": "- Installation and connection of electrical panels and circuit breakers;",
+              "5": "- Installation and connection of electrical appliances (electric stoves, water heaters, etc.);",
+              "6": "- Conducting electrical measurements and network testing;",
+              "7": "- Repair and maintenance of electrical systems;",
+              "8": "- Installation of grounding and lightning protection systems;",
+              "9": "- Setup and installation of smart home systems;",
+              "10": "- Connection of household appliances and electronics."
+            },
+            "button": "More details"
+          },
+          "3": {
+            "title": "Plumbing",
+            "subTitle": "Installation, repair, and maintenance of water supply, drainage, and sewage systems.",
+            "img": "/service-3.png",
+            "works": {
+              "1": "- Installation of water supply and sewage pipes;",
+              "2": "- Installation of various auxiliary devices (meters, filters, etc.);",
+              "3": "- Installation of sinks, bathtubs, shower cabins, and toilets;",
+              "4": "- Installation of heating systems;",
+              "5": "- Connection of household appliances."
+            },
+            "button": "More details"
+          },
+          "4": {
+            "title": "Air conditioning and heating",
+            "subTitle": "Installation, maintenance, and repair of HVAC systems to ensure efficient climate control.",
+            "img": "/service-4.png",
+            "works": {
+              "1": "- Installation and maintenance of air conditioners;",
+              "2": "- Installation and maintenance of ventilation systems;",
+              "3": "- Installation and maintenance of heating boilers;",
+              "4": "- Installation and adjustment of thermostats;",
+              "5": "- Installation of heating radiators;",
+              "6": "- Installation of underfloor heating;",
+              "7": "- Maintenance and repair of heating and climate control systems;",
+              "8": "- Design and installation of climate control systems;",
+              "9": "- Installation and maintenance of humidifiers and dehumidifiers;",
+              "10": "- Preventive inspection and cleaning of heating and air conditioning systems."
+            },
+            "button": "More details"
+          },
+          "5": {
+            "title": "Swimming pools",
+            "subTitle": "Design, construction, and maintenance of residential and commercial swimming pools, including filtration, heating, and safety systems.",
+            "img": "/service-5.png",
+            "works": {
+              "1": "- Design of swimming pools;",
+              "2": "- Earthworks and site preparation;",
+              "3": "- Construction and installation of swimming pools (reinforced concrete, composite, frame pools);",
+              "4": "- Installation and connection of filtration systems;",
+              "5": "- Installation of water heating systems;",
+              "6": "- Installation and adjustment of pool lighting systems;",
+              "7": "- Installation and adjustment of automatic water cleaning systems;",
+              "8": "- Installation of hydro-massage and air-massage systems;",
+              "9": "- Maintenance and repair of swimming pools;",
+              "10": "- Preventive cleaning and water treatment;",
+              "11": "- Installation and adjustment of automatic pool covers."
+            },
+            "button": "More details"
+          },
+          "6": {
+            "title": "Relocations",
+            "subTitle": "Coordination and execution of moving services, including packing, transportation, and setup for residential and commercial properties.",
+            "img": "/service-6.png",
+            "works": {
+              "1": "- Assessment of the scope of work and planning the move;",
+              "2": "- Providing packing materials;",
+              "3": "- Packing of furniture and personal belongings;",
+              "4": "- Dismantling and packing of large items;",
+              "5": "- Loading belongings into the transport vehicle;",
+              "6": "- Transportation of belongings to the new location;",
+              "7": "- Unloading and unpacking of belongings;",
+              "8": "- Assembly and installation of furniture at the new location;",
+              "9": "- Connection of household appliances;",
+              "10": "- Cleaning of premises after the move;",
+              "11": "- Disposal of packing materials."
+            },
+            "button": "More details"
+          },
+          "7": {
+            "title": "Dismantling and waste removal",
+            "subTitle": "Safe dismantling of structures and efficient removal of debris and waste from construction and demolition sites.",
+            "img": "/service-7.png",
+            "works": {
+              "1": "- Assessment of the volume and complexity of the work;",
+              "2": "- Preparation and fencing of the work area;",
+              "3": "- Demolition of walls, partitions, and ceilings;",
+              "4": "- Demolition of buildings and structures;",
+              "5": "- Dismantling of roofs and attic spaces;",
+              "6": "- Removal of floors and floor coverings;",
+              "7": "- Removal of plumbing and electrical appliances;",
+              "8": "- Dismantling of window and door structures;",
+              "9": "- Sorting and packaging of construction waste;",
+              "10": "- Loading and removal of construction debris;",
+              "11": "- Cleaning the area after demolition work."
+            },
+            "button": "More details"
+          },
+          "8": {
+            "title": "Legal support",
+            "subTitle": "Comprehensive legal services including consultation, documentation, and representation for construction projects, ensuring compliance and resolving legal issues.",
+            "img": "/service-8.png",
+            "works": {
+              "1": "- Legal consulting;",
+              "2": "- Preparation and analysis of legal documents;",
+              "3": "- Drafting and review of contracts;",
+              "4": "- Support in real estate transactions;",
+              "5": "- Supervision by an architect;",
+              "6": "- Handling insurance cases."
+            },
             "button": "More details"
           }
         }
@@ -81,6 +208,14 @@
           "case": "Choose your case",
           "message": "Your message",
           "button": "Contact us"
+        },
+        "contacts": {
+          "title": "Call us",
+          "content": "Need an immediate response? Used to solving issues on the spot? Then call one of the listed numbers:"
+        },
+        "alert": {
+          "success": "Your message has been sent!",
+          "error": "Something went wrong! Please try again."
         }
       }
     },

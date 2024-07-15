@@ -7,11 +7,11 @@ import { Contact } from '@/components/sections/contact/contact'
 
 export default function Home() {
   return (
-    <div className="w-full mt-16">
+    <div className="w-full mt-14">
       <MainInformation />
-      <About />
       <ServicesSection />
-      <ChooseUs />
+      <About />
+      {/* <ChooseUs /> */}
       <Contact />
     </div>
   )

@@ -3,10 +3,11 @@ import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 import React from 'react'
 import MenuIcon from '@mui/icons-material/Menu'
+import { PhonesButton } from '../header/phones-button'
 
 export const Navigation = ({ isFooter }: { isFooter?: boolean }) => {
   const t = useTranslations('PageLayout.header.pageNav')
-  const keys = ['about', 'services', 'portfolio', 'contact'] as const
+  const keys = ['services', 'about', 'contact'] as const
 
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null)
 
@@ -41,7 +42,7 @@ export const Navigation = ({ isFooter }: { isFooter?: boolean }) => {
           keepMounted
           transformOrigin={{
             vertical: 'top',
-            horizontal: 'left',
+            horizontal: 'right',
           }}
           open={Boolean(anchorElNav)}
           onClose={handleCloseNavMenu}
@@ -62,6 +63,11 @@ export const Navigation = ({ isFooter }: { isFooter?: boolean }) => {
               </MenuItem>
             )
           })}
+          <MenuItem>
+            <div className="px-4 py-[6px] h-fit">
+              <PhonesButton />
+            </div>
+          </MenuItem>
         </Menu>
       </Box>
       <Box
@@ -76,7 +82,9 @@ export const Navigation = ({ isFooter }: { isFooter?: boolean }) => {
               key={title}
               href={`/#${key}`}
               className={`font-roboto-condensed ${
-                isFooter ? 'text-white pb-2' : 'text-blue-default px-6 py-1'
+                isFooter
+                  ? 'text-white pb-2'
+                  : 'text-blue-default px-3 laptop:px-6 py-1'
               }`}
             >
               {title}

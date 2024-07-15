@@ -4,32 +4,38 @@ import { LangSwitcher } from '../lang-switcher/lang-switcher'
 import { Navigation } from '../nav/nav'
 import { ContentWrapper } from '../layouts/contentWrapper'
 import Link from 'next/link'
+import { PhonesButton } from './phones-button'
+import Image from 'next/image'
+import { Logo } from './logo'
 
 export const Header = () => {
   return (
     <AppBar
       position="static"
       color="transparent"
-      className="shadow-none border-none fixed bg-white z-50"
+      className="shadow-none border-none fixed bg-white z-50 "
     >
       <ContentWrapper>
-        <Toolbar
-          disableGutters
-          className="flex tablet:justify-between items-center"
-        >
-          {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
-          <Link href={`/`} className="flex grow font-bold decoration-0">
+        <Toolbar disableGutters className="flex justify-between items-center">
+          <Link
+            href={`/`}
+            className="flex flex-row font-bold decoration-0 h-16 w-fit items-center"
+          >
+            <Logo color="#022E66" />
             <Typography
-              variant="h6"
+              variant="h4"
               noWrap
-              className="flex font-bold decoration-0"
+              className="hidden desktop:flex font-bold text-blue-default decoration-0 pl-2 text-18"
             >
-              LOGO
+              New Energy Development
             </Typography>
           </Link>
           <div className="flex flex-row-reverse tablet:flex-row items-center">
             <Navigation />
             <LangSwitcher />
+            <div className="hidden tablet:flex">
+              <PhonesButton />
+            </div>
           </div>
         </Toolbar>
       </ContentWrapper>
