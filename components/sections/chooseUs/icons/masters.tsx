@@ -1,4 +1,6 @@
-export const MastersIcon = () => {
+import { memo } from 'react'
+
+export const MastersIcon = memo(function MastersIconComponent() {
   return (
     <svg
       width="57"
@@ -26,4 +28,4 @@ export const MastersIcon = () => {
       />
     </svg>
   )
-}
+})

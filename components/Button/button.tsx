@@ -1,5 +1,5 @@
 import { Button } from '@mui/material'
-import { PropsWithChildren } from 'react'
+import { PropsWithChildren, useCallback } from 'react'
 
 type CustomButtonT = {
   isDisable?: Boolean
@@ -13,9 +13,9 @@ export const CustomButton = ({
   onClick,
   children,
 }: CustomButtonT) => {
-  const clickButtonHandler = () => {
+  const clickButtonHandler = useCallback(() => {
     onClick && onClick()
-  }
+  }, [onClick])
 
   return (
     <Button

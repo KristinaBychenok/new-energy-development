@@ -1,4 +1,6 @@
-export const Logo = ({ color }: { color: string }) => {
+import { memo } from 'react'
+
+export const Logo = memo(function LogoComponent({ color }: { color: string }) {
   return (
     <svg
       width={64}
@@ -194,4 +196,4 @@ export const Logo = ({ color }: { color: string }) => {
       </g>
     </svg>
   )
-}
+})

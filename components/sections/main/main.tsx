@@ -4,6 +4,7 @@ import { Typography } from '@mui/material'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import Link from 'next/link'
+import mainImage from '../../../public/main-info-photo.webp'
 
 export const MainInformation = () => {
   const t = useTranslations('PageLayout.body.mainSection')
@@ -33,13 +34,15 @@ export const MainInformation = () => {
         </Link>
       </ContentWrapper>
       <div className="self-center tablet:absolute tablet:top-0 tablet:right-0 pt-6 tablet:pt-0 h-[340px] tablet:h-full overflow-auto w-full tablet:w-[372px] laptop:w-[524px] desktop:w-[695px]">
-        <Image
-          src="/main-info-photo.png"
-          width={695}
-          height={510}
-          alt="Main-info-photo"
-          className="h-full object-cover"
-        />
+        <div className="flex h-full overflow-auto w-full">
+          <Image
+            src={mainImage}
+            alt="Main-info-photo"
+            className="object-cover"
+            priority
+            sizes="(min-width:768px) 372px, (min-width: 1024px) 524px, (min-width: 1440px) 695px, 695px"
+          />
+        </div>
       </div>
     </div>
   )

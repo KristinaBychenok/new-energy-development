@@ -1,4 +1,4 @@
-import { PropsWithChildren } from 'react'
+import { PropsWithChildren, memo } from 'react'
 import Head from 'next/head'
 import React from 'react'
 import { Header } from '../header/header'
@@ -17,7 +17,9 @@ const montserrat: NextFontWithVariable = Montserrat({
   variable: '--font-montserrat',
 })
 
-export const Wrapper = (props: PropsWithChildren) => {
+export const Wrapper = memo(function WrapperComponent(
+  props: PropsWithChildren
+) {
   return (
     <>
       <Head>
@@ -26,7 +28,7 @@ export const Wrapper = (props: PropsWithChildren) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <div
-        className={`mx-auto flex flex-col min-h-screen items-center ${robotoCondensed.variable} ${montserrat.variable}`}
+        className={`mx-auto flex flex-col min-h-screen w-screen ${robotoCondensed.variable} ${montserrat.variable}`}
       >
         <Header />
         {props.children}
@@ -34,4 +36,4 @@ export const Wrapper = (props: PropsWithChildren) => {
       </div>
     </>
   )
-}
+})

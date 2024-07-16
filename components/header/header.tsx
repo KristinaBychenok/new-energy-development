@@ -5,7 +5,6 @@ import { Navigation } from '../nav/nav'
 import { ContentWrapper } from '../layouts/contentWrapper'
 import Link from 'next/link'
 import { PhonesButton } from './phones-button'
-import Image from 'next/image'
 import { Logo } from './logo'
 
 export const Header = () => {
@@ -13,13 +12,14 @@ export const Header = () => {
     <AppBar
       position="static"
       color="transparent"
-      className="shadow-none border-none fixed bg-white z-50 "
+      className="shadow-none border-none fixed bg-white z-50"
     >
       <ContentWrapper>
         <Toolbar disableGutters className="flex justify-between items-center">
           <Link
             href={`/`}
-            className="flex flex-row font-bold decoration-0 h-16 w-fit items-center"
+            className="flex flex-row font-bold decoration-0 h-16 w-fit items-center justify-center"
+            aria-label="logo"
           >
             <Logo color="#022E66" />
             <Typography

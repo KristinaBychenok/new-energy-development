@@ -48,7 +48,7 @@
           "1": {
             "title": "Engineering systems",
             "subTitle": "Design, installation and maintenance of engineering networks and systems.",
-            "img": "/service-1.png",
+            "img": "/service-1.webp",
             "works": {
               "1": "- Design of building engineering systems;",
               "2": "- Installation and maintenance of automation and dispatch systems;",
@@ -60,7 +60,7 @@
           "2": {
             "title": "Electrical work",
             "subTitle": "Installation, maintenance, and repair of electrical systems and wiring.",
-            "img": "/service-2.png",
+            "img": "/service-2.webp",
             "works": {
               "1": "- Installation and replacement of electrical wiring;",
               "2": "- Installation and replacement of outlets and switches;",
@@ -78,7 +78,7 @@
           "3": {
             "title": "Plumbing",
             "subTitle": "Installation, repair, and maintenance of water supply, drainage, and sewage systems.",
-            "img": "/service-3.png",
+            "img": "/service-3.webp",
             "works": {
               "1": "- Installation of water supply and sewage pipes;",
               "2": "- Installation of various auxiliary devices (meters, filters, etc.);",
@@ -91,7 +91,7 @@
           "4": {
             "title": "Air conditioning and heating",
             "subTitle": "Installation, maintenance, and repair of HVAC systems to ensure efficient climate control.",
-            "img": "/service-4.png",
+            "img": "/service-4.webp",
             "works": {
               "1": "- Installation and maintenance of air conditioners;",
               "2": "- Installation and maintenance of ventilation systems;",
@@ -109,7 +109,7 @@
           "5": {
             "title": "Swimming pools",
             "subTitle": "Design, construction, and maintenance of residential and commercial swimming pools, including filtration, heating, and safety systems.",
-            "img": "/service-5.png",
+            "img": "/service-5.webp",
             "works": {
               "1": "- Design of swimming pools;",
               "2": "- Earthworks and site preparation;",
@@ -128,7 +128,7 @@
           "6": {
             "title": "Relocations",
             "subTitle": "Coordination and execution of moving services, including packing, transportation, and setup for residential and commercial properties.",
-            "img": "/service-6.png",
+            "img": "/service-6.webp",
             "works": {
               "1": "- Assessment of the scope of work and planning the move;",
               "2": "- Providing packing materials;",
@@ -147,7 +147,7 @@
           "7": {
             "title": "Dismantling and waste removal",
             "subTitle": "Safe dismantling of structures and efficient removal of debris and waste from construction and demolition sites.",
-            "img": "/service-7.png",
+            "img": "/service-7.webp",
             "works": {
               "1": "- Assessment of the volume and complexity of the work;",
               "2": "- Preparation and fencing of the work area;",
@@ -166,7 +166,7 @@
           "8": {
             "title": "Legal support",
             "subTitle": "Comprehensive legal services including consultation, documentation, and representation for construction projects, ensuring compliance and resolving legal issues.",
-            "img": "/service-8.png",
+            "img": "/service-8.webp",
             "works": {
               "1": "- Legal consulting;",
               "2": "- Preparation and analysis of legal documents;",
@@ -177,6 +177,10 @@
             },
             "button": "More details"
           }
+        },
+        "contact": {
+          "title": "Contact Us",
+          "content": "For consultations and individual requests, call the numbers provided. We are always happy to assist you."
         }
       },
       "chooseUsSection": {
@@ -204,6 +208,7 @@
         "form": {
           "name": "Name",
           "email": "Email",
+          "emailNotValidMessage": "Email is not valid",
           "phone": "Phone",
           "case": "Choose your case",
           "message": "Your message",

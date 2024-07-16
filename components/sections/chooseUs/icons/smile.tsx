@@ -1,4 +1,6 @@
-export const SmileIcon = () => {
+import { memo } from 'react'
+
+export const SmileIcon = memo(function SmileIconComponent() {
   return (
     <svg
       width="57"
@@ -26,4 +28,4 @@ export const SmileIcon = () => {
       />
     </svg>
   )
-}
+})

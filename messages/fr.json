@@ -48,7 +48,7 @@
           "1": {
             "title": "Systèmes d'ingénierie",
             "subTitle": "Conception, installation et maintenance des réseaux et systèmes d'ingénierie.",
-            "img": "/service-1.png",
+            "img": "/service-1.webp",
             "works": {
               "1": "- Conception des systèmes d'ingénierie de bâtiment;",
               "2": "- Installation et maintenance des systèmes d'automatisation et de gestion;",
@@ -60,7 +60,7 @@
           "2": {
             "title": "Travaux électriques",
             "subTitle": "Installation, maintenance et réparation des systèmes et câblages électriques.",
-            "img": "/service-2.png",
+            "img": "/service-2.webp",
             "works": {
               "1": "- Installation et remplacement des câblages électriques;",
               "2": "- Installation et remplacement des prises et interrupteurs;",
@@ -78,7 +78,7 @@
           "3": {
             "title": "Plomberie",
             "subTitle": "Installation, réparation et maintenance des systèmes d'alimentation en eau, de drainage et d'égouts.",
-            "img": "/service-3.png",
+            "img": "/service-3.webp",
             "works": {
               "1": "- Installation des tuyaux d'alimentation en eau et des égouts;",
               "2": "- Installation de divers dispositifs auxiliaires (compteurs, filtres, etc.);",
@@ -91,7 +91,7 @@
           "4": {
             "title": "Climatisation et chauffage",
             "subTitle": "Installation, maintenance et réparation des systèmes CVC pour assurer un contrôle climatique efficace.",
-            "img": "/service-4.png",
+            "img": "/service-4.webp",
             "works": {
               "1": "- Installation et maintenance des climatiseurs;",
               "2": "- Installation et maintenance des systèmes de ventilation;",
@@ -109,7 +109,7 @@
           "5": {
             "title": "Piscines",
             "subTitle": "Conception, construction et maintenance des piscines résidentielles et commerciales, y compris les systèmes de filtration, de chauffage et de sécurité.",
-            "img": "/service-5.png",
+            "img": "/service-5.webp",
             "works": {
               "1": "- Conception des piscines;",
               "2": "- Travaux de terrassement et préparation du site;",
@@ -128,7 +128,7 @@
           "6": {
             "title": "Déménagements",
             "subTitle": "Coordination et exécution des services de déménagement, y compris l'emballage, le transport et l'installation pour les propriétés résidentielles et commerciales.",
-            "img": "/service-6.png",
+            "img": "/service-6.webp",
             "works": {
               "1": "- Évaluation de l'ampleur du travail et planification du déménagement;",
               "2": "- Fourniture de matériaux d'emballage;",
@@ -147,7 +147,7 @@
           "7": {
             "title": "Démolition et enlèvement des déchets",
             "subTitle": "Démolition sécurisée des structures et enlèvement efficace des débris et déchets des sites de construction et de démolition.",
-            "img": "/service-7.png",
+            "img": "/service-7.webp",
             "works": {
               "1": "- Évaluation du volume et de la complexité du travail;",
               "2": "- Préparation et clôture de la zone de travail;",
@@ -166,7 +166,7 @@
           "8": {
             "title": "Soutien juridique",
             "subTitle": "Services juridiques complets, y compris la consultation, la documentation et la représentation pour les projets de construction, garantissant la conformité et la résolution des problèmes juridiques.",
-            "img": "/service-8.png",
+            "img": "/service-8.webp",
             "works": {
               "1": "- Consultation juridique;",
               "2": "- Préparation et analyse des documents juridiques;",
@@ -177,6 +177,10 @@
             },
             "button": "Plus de détails"
           }
+        },
+        "contact": {
+          "title": "Contactez-nous",
+          "content": "Pour des consultations et des demandes individuelles, appelez les numéros fournis. Nous sommes toujours heureux de vous aider."
         }
       },
       "chooseUsSection": {
@@ -204,6 +208,7 @@
         "form": {
           "name": "Nom",
           "email": "E-mail",
+          "emailNotValidMessage": "L'email n'est pas valide",
           "phone": "Téléphone",
           "case": "Choisissez votre cas",
           "message": "Votre message",

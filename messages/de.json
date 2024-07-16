@@ -48,7 +48,7 @@
           "1": {
             "title": "Technische Systeme",
             "subTitle": "Planung, Installation und Wartung von technischen Netzwerken und Systemen.",
-            "img": "/service-1.png",
+            "img": "/service-1.webp",
             "works": {
               "1": "- Planung von Gebäudetechniksystemen;",
               "2": "- Installation und Wartung von Automations- und Leitsystemen;",
@@ -60,7 +60,7 @@
           "2": {
             "title": "Elektroarbeiten",
             "subTitle": "Installation, Wartung und Reparatur von elektrischen Systemen und Verkabelungen.",
-            "img": "/service-2.png",
+            "img": "/service-2.webp",
             "works": {
               "1": "- Installation und Austausch von Elektroinstallationen;",
               "2": "- Installation und Austausch von Steckdosen und Schaltern;",
@@ -78,7 +78,7 @@
           "3": {
             "title": "Sanitär",
             "subTitle": "Installation, Reparatur und Wartung von Wasserversorgungs-, Abwasser- und Abwassersystemen.",
-            "img": "/service-3.png",
+            "img": "/service-3.webp",
             "works": {
               "1": "- Installation von Wasserversorgungs- und Abwasserrohren;",
               "2": "- Installation verschiedener Hilfseinrichtungen (Messgeräte, Filter usw.);",
@@ -91,7 +91,7 @@
           "4": {
             "title": "Klima- und Heiztechnik",
             "subTitle": "Installation, Wartung und Reparatur von HVAC-Systemen zur effizienten Klimaregelung.",
-            "img": "/service-4.png",
+            "img": "/service-4.webp",
             "works": {
               "1": "- Installation und Wartung von Klimaanlagen;",
               "2": "- Installation und Wartung von Lüftungssystemen;",
@@ -109,7 +109,7 @@
           "5": {
             "title": "Schwimmbäder",
             "subTitle": "Planung, Bau und Wartung von privaten und kommerziellen Schwimmbädern, einschließlich Filter-, Heiz- und Sicherheitssystemen.",
-            "img": "/service-5.png",
+            "img": "/service-5.webp",
             "works": {
               "1": "- Planung von Schwimmbädern;",
               "2": "- Erdarbeiten und Geländevorbereitung;",
@@ -128,7 +128,7 @@
           "6": {
             "title": "Umzüge",
             "subTitle": "Koordination und Durchführung von Umzugsdienstleistungen, einschließlich Verpackung, Transport und Einrichtung für Wohn- und Gewerbeimmobilien.",
-            "img": "/service-6.png",
+            "img": "/service-6.webp",
             "works": {
               "1": "- Bewertung des Arbeitsumfangs und Planung des Umzugs;",
               "2": "- Bereitstellung von Verpackungsmaterialien;",
@@ -147,7 +147,7 @@
           "7": {
             "title": "Demontage und Entsorgung",
             "subTitle": "Sichere Demontage von Strukturen und effiziente Entsorgung von Abfällen und Schutt von Baustellen und Abrissstellen.",
-            "img": "/service-7.png",
+            "img": "/service-7.webp",
             "works": {
               "1": "- Bewertung des Volumens und der Komplexität der Arbeit;",
               "2": "- Vorbereitung und Abgrenzung des Arbeitsbereichs;",
@@ -166,7 +166,7 @@
           "8": {
             "title": "Rechtliche Unterstützung",
             "subTitle": "Umfassende rechtliche Dienstleistungen einschließlich Beratung, Dokumentation und Vertretung für Bauvorhaben, um die Einhaltung zu gewährleisten und rechtliche Probleme zu lösen.",
-            "img": "/service-8.png",
+            "img": "/service-8.webp",
             "works": {
               "1": "- Rechtsberatung;",
               "2": "- Erstellung und Analyse von Rechtsdokumenten;",
@@ -177,6 +177,10 @@
             },
             "button": "Mehr Details"
           }
+        },
+        "contact": {
+          "title": "Kontaktieren Sie uns",
+          "content": "Für Beratungen und individuelle Anfragen rufen Sie bitte die angegebenen Nummern an. Wir sind immer gerne für Sie da."
         }
       },
       "chooseUsSection": {
@@ -204,6 +208,7 @@
         "form": {
           "name": "Name",
           "email": "E-Mail",
+          "emailNotValidMessage": "E-Mail ist ungültig",
           "phone": "Telefon",
           "case": "Wählen Sie Ihren Fall",
           "message": "Ihre Nachricht",

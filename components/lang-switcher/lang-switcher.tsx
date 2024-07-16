@@ -32,13 +32,7 @@ export const LangSwitcher = () => {
         className="flex flex-row items-center justify-center px-6 py-1"
         onClick={handleOpenLangMenu}
       >
-        <IconButton
-          size="small"
-          aria-label="languege switcher"
-          aria-controls="menu-appbar-lang-switcher"
-          aria-haspopup="true"
-          color="inherit"
-        >
+        <IconButton size="small" color="inherit">
           <LanguageIcon className="text-blue-default w-4 h-4" />
         </IconButton>
         <Typography className="font-roboto-condensed text-blue-default text-16 pl-2">
