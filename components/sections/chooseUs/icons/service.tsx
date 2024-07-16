@@ -1,4 +1,6 @@
-export const ServiceIcon = () => {
+import { memo } from 'react'
+
+export const ServiceIcon = memo(function ServiceIconComponent() {
   return (
     <svg
       width="56"
@@ -14,4 +16,4 @@ export const ServiceIcon = () => {
       />
     </svg>
   )
-}
+})

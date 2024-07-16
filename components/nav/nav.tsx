@@ -1,7 +1,7 @@
 import { Box, IconButton, Menu, MenuItem } from '@mui/material'
 import { useTranslations } from 'next-intl'
 import Link from 'next/link'
-import React from 'react'
+import React, { useCallback } from 'react'
 import MenuIcon from '@mui/icons-material/Menu'
 import { PhonesButton } from '../header/phones-button'
 
@@ -11,16 +11,19 @@ export const Navigation = ({ isFooter }: { isFooter?: boolean }) => {
 
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null)
 
-  const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
-    setAnchorElNav(event.currentTarget)
-  }
+  const handleOpenNavMenu = useCallback(
+    (event: React.MouseEvent<HTMLElement>) => {
+      setAnchorElNav(event.currentTarget)
+    },
+    []
+  )
 
-  const handleCloseNavMenu = () => {
+  const handleCloseNavMenu = useCallback(() => {
     setAnchorElNav(null)
-  }
+  }, [])
 
   return (
-    <>
+    <nav>
       <Box className={`${isFooter ? 'hidden' : 'flex tablet:hidden'} grow`}>
         <IconButton
           size="large"
@@ -92,6 +95,6 @@ export const Navigation = ({ isFooter }: { isFooter?: boolean }) => {
           )
         })}
       </Box>
-    </>
+    </nav>
   )
 }

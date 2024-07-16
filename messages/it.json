@@ -48,7 +48,7 @@
           "1": {
             "title": "Sistemi di ingegneria",
             "subTitle": "Progettazione, installazione e manutenzione di reti e sistemi di ingegneria.",
-            "img": "/service-1.png",
+            "img": "/service-1.webp",
             "works": {
               "1": "- Progettazione dei sistemi di ingegneria degli edifici;",
               "2": "- Installazione e manutenzione dei sistemi di automazione e gestione;",
@@ -60,7 +60,7 @@
           "2": {
             "title": "Lavori elettrici",
             "subTitle": "Installazione, manutenzione e riparazione di impianti elettrici e cablaggi.",
-            "img": "/service-2.png",
+            "img": "/service-2.webp",
             "works": {
               "1": "- Installazione e sostituzione dei cablaggi elettrici;",
               "2": "- Installazione e sostituzione di prese e interruttori;",
@@ -78,7 +78,7 @@
           "3": {
             "title": "Lavori idraulici",
             "subTitle": "Installazione, riparazione e manutenzione di impianti idraulici, di drenaggio e fognari.",
-            "img": "/service-3.png",
+            "img": "/service-3.webp",
             "works": {
               "1": "- Installazione di tubature dell'acqua e delle fogne;",
               "2": "- Installazione di vari dispositivi ausiliari (contatori, filtri, ecc.);",
@@ -91,7 +91,7 @@
           "4": {
             "title": "Condizionamento e riscaldamento",
             "subTitle": "Installazione, manutenzione e riparazione di sistemi HVAC per garantire un controllo climatico efficiente.",
-            "img": "/service-4.png",
+            "img": "/service-4.webp",
             "works": {
               "1": "- Installazione e manutenzione di condizionatori d'aria;",
               "2": "- Installazione e manutenzione di sistemi di ventilazione;",
@@ -109,7 +109,7 @@
           "5": {
             "title": "Piscine",
             "subTitle": "Progettazione, costruzione e manutenzione di piscine residenziali e commerciali, inclusi sistemi di filtrazione, riscaldamento e sicurezza.",
-            "img": "/service-5.png",
+            "img": "/service-5.webp",
             "works": {
               "1": "- Progettazione di piscine;",
               "2": "- Lavori di scavo e preparazione del sito;",
@@ -128,7 +128,7 @@
           "6": {
             "title": "Traslochi",
             "subTitle": "Coordinamento e esecuzione dei servizi di trasloco, inclusi imballaggio, trasporto e installazione per proprietà residenziali e commerciali.",
-            "img": "/service-6.png",
+            "img": "/service-6.webp",
             "works": {
               "1": "- Valutazione dell'entità del lavoro e pianificazione del trasloco;",
               "2": "- Fornitura di materiali per l'imballaggio;",
@@ -147,7 +147,7 @@
           "7": {
             "title": "Demolizione e rimozione dei rifiuti",
             "subTitle": "Demolizione sicura delle strutture e rimozione efficiente dei detriti e dei rifiuti dai cantieri e dai siti di demolizione.",
-            "img": "/service-7.png",
+            "img": "/service-7.webp",
             "works": {
               "1": "- Valutazione del volume e della complessità del lavoro;",
               "2": "- Preparazione e recinzione dell'area di lavoro;",
@@ -166,7 +166,7 @@
           "8": {
             "title": "Supporto legale",
             "subTitle": "Servizi legali completi inclusi consulenza, documentazione e rappresentanza per progetti di costruzione, garantendo conformità e risoluzione delle questioni legali.",
-            "img": "/service-8.png",
+            "img": "/service-8.webp",
             "works": {
               "1": "- Consulenza legale;",
               "2": "- Preparazione e analisi di documenti legali;",
@@ -177,6 +177,10 @@
             },
             "button": "Più dettagli"
           }
+        },
+        "contact": {
+          "title": "Contattaci",
+          "content": "Per consulenze e richieste individuali, chiamate i numeri forniti. Siamo sempre felici di assistervi."
         }
       },
       "chooseUsSection": {
@@ -204,6 +208,7 @@
         "form": {
           "name": "Nome",
           "email": "E-mail",
+          "emailNotValidMessage": "L'email non è valida",
           "phone": "Telefono",
           "case": "Scegli il tuo caso",
           "message": "Il tuo messaggio",

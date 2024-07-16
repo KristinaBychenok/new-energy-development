@@ -46,6 +46,7 @@ const config: Config = {
       white: '#FFFFFF',
       beige: '#F7F5E6',
       blue: {
+        'very-light': '#E1EBF3',
         light: '#52658F',
         default: '#022E66',
         dark: '#333A56',

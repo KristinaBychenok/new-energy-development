@@ -3,6 +3,7 @@ import { Typography } from '@mui/material'
 import { useTranslations } from 'next-intl'
 import { useState } from 'react'
 import { ServicesAccordion } from './servicesAccordion'
+import { ContactCardContent } from './contactCard'
 
 const services1L = ['1', '2', '3']
 const services2L = ['4', '5', '6']
@@ -26,9 +27,8 @@ export const ServicesSection = () => {
     }
 
   return (
-    <div id="services" className="pt-5 tablet:pt-10 laptop:pt-20 relative">
-      {/* <div className="bg-grey-light w-full h-[230px] absolute top-0 left-0 -z-10"></div> */}
-      <ContentWrapper>
+    <ContentWrapper>
+      <div id="services" className="pt-5 tablet:pt-10 laptop:pt-20 relative">
         <Typography className="font-roboto-condensed text-blue-light font-medium leading-6 text-16">
           {t('title')}
         </Typography>
@@ -41,7 +41,7 @@ export const ServicesSection = () => {
             panel="panel1"
             handleChange={handleChange}
             aria="panel1-content"
-            summaryId="panel1-header"
+            summaryId="panel1-header-1"
             services={services1L}
           />
           <ServicesAccordion
@@ -49,7 +49,7 @@ export const ServicesSection = () => {
             panel="panel2"
             handleChange={handleChange}
             aria="panel2-content"
-            summaryId="panel2-header"
+            summaryId="panel2-header-1"
             services={services2L}
           />
           <ServicesAccordion
@@ -57,9 +57,10 @@ export const ServicesSection = () => {
             panel="panel3"
             handleChange={handleChange}
             aria="panel3-content"
-            summaryId="panel3-header"
+            summaryId="panel3-header-1"
             services={services3L}
-          />
+            hasContactCard={true}
+          ></ServicesAccordion>
         </div>
         <div className="hidden big-mobile:flex big-mobile:flex-col big-mobile:w-full laptop:hidden">
           <ServicesAccordion
@@ -67,7 +68,7 @@ export const ServicesSection = () => {
             panel="panel1"
             handleChange={handleChange}
             aria="panel1-content"
-            summaryId="panel1-header"
+            summaryId="panel1-header-2"
             services={services1M}
           />
           <ServicesAccordion
@@ -75,7 +76,7 @@ export const ServicesSection = () => {
             panel="panel2"
             handleChange={handleChange}
             aria="panel2-content"
-            summaryId="panel2-header"
+            summaryId="panel2-header-2"
             services={services2M}
           />
           <ServicesAccordion
@@ -83,7 +84,7 @@ export const ServicesSection = () => {
             panel="panel3"
             handleChange={handleChange}
             aria="panel3-content"
-            summaryId="panel3-header"
+            summaryId="panel3-header-2"
             services={services3M}
           />
           <ServicesAccordion
@@ -91,7 +92,7 @@ export const ServicesSection = () => {
             panel="panel4"
             handleChange={handleChange}
             aria="panel4-content"
-            summaryId="panel4-header"
+            summaryId="panel4-header-2"
             services={services4M}
           />
         </div>
@@ -104,13 +105,16 @@ export const ServicesSection = () => {
                 panel={`panel${serviceId}`}
                 handleChange={handleChange}
                 aria={`panel${serviceId}-content`}
-                summaryId={`panel${serviceId}-header`}
+                summaryId={`panel${serviceId}-header-3`}
                 services={[serviceId]}
               />
             )
           })}
         </div>
-      </ContentWrapper>
-    </div>
+        <div className="bg-blue-very-light flex flex-col laptop:hidden w-full p-6 mt-5 big-mobile:mt-6">
+          <ContactCardContent />
+        </div>
+      </div>
+    </ContentWrapper>
   )
 }

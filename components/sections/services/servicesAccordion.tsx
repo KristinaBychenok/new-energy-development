@@ -6,8 +6,9 @@ import MuiAccordionSummary, {
 } from '@mui/material/AccordionSummary'
 import MuiAccordionDetails from '@mui/material/AccordionDetails'
 import MuiAccordion, { AccordionProps } from '@mui/material/Accordion'
-import { MouseEventHandler, useCallback, useMemo, useState } from 'react'
+import { useCallback, useState } from 'react'
 import { Messages } from './servicesAccordion.types'
+import { ContactCardContent } from './contactCard'
 
 const Accordion = styled((props: AccordionProps) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
@@ -53,6 +54,7 @@ export const ServicesAccordion = ({
   aria,
   summaryId,
   services,
+  hasContactCard,
 }: {
   expanded: string | false
   panel: string
@@ -62,6 +64,7 @@ export const ServicesAccordion = ({
   aria: string
   summaryId: string
   services: string[]
+  hasContactCard?: boolean
 }) => {
   const t = useTranslations('PageLayout.body.servicesSection')
   const [openedServiceId, setOpenedServiceId] = useState('')
@@ -107,9 +110,15 @@ export const ServicesAccordion = ({
                 button={t(`services.${serviceId}.button`)}
                 setOpenedCartId={setOpenedServiceId}
                 isCartOpened={isCartOpened(serviceId)}
+                isOnScreen={panel === 'panel1'}
               />
             )
           })}
+          {!!hasContactCard && (
+            <div className="bg-blue-very-light hidden flex-col laptop:flex h-full w-[294px] desktop:w-[360px] p-6 absolute bottom-0 right-0">
+              <ContactCardContent />
+            </div>
+          )}
         </div>
       </AccordionSummary>
       <AccordionDetails>

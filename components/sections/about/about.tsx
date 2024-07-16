@@ -6,6 +6,7 @@ import WorkHistoryIcon from '@mui/icons-material/WorkHistory'
 import EngineeringIcon from '@mui/icons-material/Engineering'
 import HandshakeIcon from '@mui/icons-material/Handshake'
 import LanguageIcon from '@mui/icons-material/Language'
+import aboutImg from '/about-us-photo.png'
 
 const achievementsIcons = [
   {
@@ -43,13 +44,16 @@ export const About = () => {
         </Typography>
         <div className="flex flex-col-reverse laptop:flex-row items-start w-full pt-6">
           <div className="flex w-full laptop:w-[357px] laptop:h-[464px] pt-6 laptop:pt-0 laptop:pr-6 overflow-hidden">
-            <Image
-              src="/about-us-photo.png"
-              width={357}
-              height={464}
-              alt="about-us-photo"
-              className="object-cover object-center w-full h-full"
-            />
+            <div className="flex h-full overflow-auto w-full justify-center">
+              <Image
+                src="/about-us-photo.webp"
+                width={357}
+                height={464}
+                alt="about-us-photo"
+                className="object-cover w-full laptop:w-[357px]"
+                sizes="(max-width:768px) 100%, (min-width: 769px) 357px, 357px"
+              />
+            </div>
           </div>
           <div className="flex flex-col w-full laptop:w-[740px]">
             <Typography className="font-mont text-grey-dark font-normal leading-6 text-16 w-full pb-2">

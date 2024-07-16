@@ -11,6 +11,7 @@ type ServiceCardProps = {
   button: string
   setOpenedCartId: (num: string) => void
   isCartOpened: boolean
+  isOnScreen: boolean
 }
 
 export const ServiceCard = ({
@@ -21,6 +22,7 @@ export const ServiceCard = ({
   button,
   setOpenedCartId,
   isCartOpened,
+  isOnScreen,
 }: ServiceCardProps) => {
   return (
     <div
@@ -37,6 +39,7 @@ export const ServiceCard = ({
           height={160}
           alt={title}
           className="w-full h-[160px] object-cover"
+          priority={isOnScreen}
         />
       </div>
       <div className="flex flex-col p-6 justify-between mb-[52px]">

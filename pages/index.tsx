@@ -2,27 +2,25 @@ import { ServicesSection } from '@/components/sections/services/services'
 import { GetStaticPropsContext } from 'next'
 import { MainInformation } from '@/components/sections/main/main'
 import { About } from '@/components/sections/about/about'
-import { ChooseUs } from '@/components/sections/chooseUs/chooseUs'
 import { Contact } from '@/components/sections/contact/contact'
+import { Wrapper } from '../components/layouts/wrapper'
 
 export default function Home() {
   return (
-    <div className="w-full mt-14">
-      <MainInformation />
-      <ServicesSection />
-      <About />
-      {/* <ChooseUs /> */}
-      <Contact />
-    </div>
+    <Wrapper>
+      <div className="w-full mt-14">
+        <MainInformation />
+        <ServicesSection />
+        <About />
+        <Contact />
+      </div>
+    </Wrapper>
   )
 }
 
 export async function getStaticProps(context: GetStaticPropsContext) {
   return {
     props: {
-      // You can get the messages from anywhere you like. The recommended
-      // pattern is to put them in JSON files separated by locale and read
-      // the desired one based on the `locale` received from Next.js.
       messages: (await import(`../messages/${context.locale}.json`)).default,
     },
   }
