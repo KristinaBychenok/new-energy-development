@@ -1,7 +1,12 @@
 import { ChangeEvent, useCallback, useEffect, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import { useTranslations } from 'next-intl'
-import { checkRegExpField, emailRegExp } from './contact.helpers'
+import {
+  checkRegExpField,
+  emailRegExp,
+  nameRegExp,
+  phoneRegExp,
+} from './contact.helpers'
 
 export type AlertColor = 'success' | 'error'
 
@@ -18,47 +23,88 @@ export const useGetContact = () => {
     message: '',
   })
   const [isDisable, setIsDisable] = useState(true)
-  const [userName, setUserName] = useState('')
+  const [userName, setUserName] = useState({
+    value: '',
+    isValid: true,
+  })
   const [userEmail, setUserEmail] = useState({
     value: '',
     isValid: true,
-    message: '',
   })
-  const [phone, setPhone] = useState('')
-  const [message, setMessage] = useState('')
+  const [phone, setPhone] = useState({
+    value: '',
+    isValid: true,
+  })
+  const [message, setMessage] = useState({
+    value: '',
+    isValid: true,
+  })
 
   useEffect(() => {
     setIsDisable(
-      !userName || !userEmail.value || !userEmail.isValid || !phone || !message
+      !userName.value ||
+        !userName.isValid ||
+        !userEmail.value ||
+        !userEmail.isValid ||
+        !phone.value ||
+        !phone.isValid ||
+        !message.value ||
+        !message.isValid
     )
-  }, [message, phone, userEmail.isValid, userEmail.value, userName])
+  }, [
+    message.isValid,
+    message.value,
+    phone.isValid,
+    phone.value,
+    userEmail.isValid,
+    userEmail.value,
+    userName.isValid,
+    userName.value,
+  ])
 
   const handleChangeUserName = useCallback(
     (e: ChangeEvent<HTMLInputElement>) => {
-      setUserName(e.target.value)
+      const isNameValid =
+        e.target.value === ''
+          ? true
+          : checkRegExpField(e.target.value, nameRegExp) &&
+            e.target.value.length <= 100
+
+      setUserName({
+        value: e.target.value,
+        isValid: isNameValid,
+      })
     },
     []
   )
-  const handleChangeEmail = useCallback(
-    (e: ChangeEvent<HTMLInputElement>) => {
-      const isEmailValid =
-        e.target.value === ''
-          ? true
-          : checkRegExpField(e.target.value, emailRegExp)
-      setUserEmail({
-        value: e.target.value,
-        isValid: isEmailValid,
-        message: isEmailValid ? '' : t('form.emailNotValidMessage'),
-      })
-    },
-    [t]
-  )
+  const handleChangeEmail = useCallback((e: ChangeEvent<HTMLInputElement>) => {
+    const isEmailValid =
+      e.target.value === ''
+        ? true
+        : checkRegExpField(e.target.value, emailRegExp)
+    setUserEmail({
+      value: e.target.value,
+      isValid: isEmailValid,
+    })
+  }, [])
   const handleChangePhone = useCallback((e: ChangeEvent<HTMLInputElement>) => {
-    setPhone(e.target.value)
+    const isPhoneValid =
+      e.target.value === ''
+        ? true
+        : checkRegExpField(e.target.value, phoneRegExp)
+    setPhone({
+      value: e.target.value,
+      isValid: isPhoneValid,
+    })
   }, [])
   const handleChangeMessage = useCallback(
     (e: ChangeEvent<HTMLInputElement>) => {
-      setMessage(e.target.value)
+      const isMessageValid = e.target.value.length <= 2000
+
+      setMessage({
+        value: e.target.value,
+        isValid: isMessageValid,
+      })
     },
     []
   )
@@ -70,7 +116,7 @@ export const useGetContact = () => {
   useEffect(() => {
     const timer1 = setTimeout(
       () => setAlert({ isShow: false, color: 'success', message: '' }),
-      3000
+      10000
     )
 
     return () => {
@@ -79,14 +125,17 @@ export const useGetContact = () => {
   }, [alert.isShow])
 
   const sendEmail = async () => {
-    const isFormFilled = !!userName && !!userEmail && !!phone && !!message
-    const isFormValid = userEmail.isValid
+    setIsDisable(true)
+    const isFormFilled =
+      !!userName.value && !!userEmail.value && !!phone.value && !!message.value
+    const isFormValid =
+      userEmail.isValid && userName.isValid && phone.isValid && message.isValid
 
     const formFields = {
-      name: userName,
+      name: userName.value,
       email: userEmail.value,
-      phone: phone,
-      message: message,
+      phone: phone.value,
+      message: message.value,
     }
 
     if (isFormFilled && isFormValid) {
@@ -99,15 +148,22 @@ export const useGetContact = () => {
           'dYf8U5g1SvOQ4SQ0W'
         )
         if (res.text === 'OK') {
-          setUserName('')
+          setUserName({
+            value: '',
+            isValid: true,
+          })
           setUserEmail({
             value: '',
             isValid: true,
-            message: '',
           })
-          setPhone('')
-          setMessage('')
-          setIsDisable(true)
+          setPhone({
+            value: '',
+            isValid: true,
+          })
+          setMessage({
+            value: '',
+            isValid: true,
+          })
           setAlert({
             isShow: true,
             color: 'success',

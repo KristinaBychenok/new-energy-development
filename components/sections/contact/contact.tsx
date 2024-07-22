@@ -26,25 +26,15 @@ export const Contact = () => {
   return (
     <div
       id="contact"
-      className="relative flex flex-col w-full mt-10 pb-10 laptop:mt-20 laptop:pb-20"
+      className="relative flex flex-col w-full py-10 laptop:py-20"
     >
       <ContentWrapper>
         <div className="w-full p-8 bg-beige z-10 relative">
-          <Typography
-            variant="h4"
-            className="font-roboto-condensed text-18 font-bold leading-[25.2px] text-blue-light mb-1"
-          >
-            {t('title')}
-          </Typography>
-          <Typography
-            variant="h1"
-            className="font-roboto-condensed text-40 font-bold leading-[38px] text-blue-dark pb-4"
-          >
+          <Typography className="title-text mb-1">{t('title')}</Typography>
+          <Typography className="subtitle-text pb-4">
             {t('subTitle')}
           </Typography>
-          <Typography className="font-mont text-grey-dark font-normal leading-6 text-16 pb-6">
-            {t('content')}
-          </Typography>
+          <Typography className="content-text pb-6">{t('content')}</Typography>
           {alert.isShow && (
             <Alert
               color={alert.color}
@@ -65,7 +55,11 @@ export const Contact = () => {
                 label={t('form.name')}
                 variant="standard"
                 required
-                value={userName}
+                value={userName.value}
+                helperText={
+                  userName.isValid ? '' : t('form.nameNotValidMessage')
+                }
+                error={!userName.isValid}
                 onChange={handleChangeUserName}
               />
               <TextField
@@ -75,7 +69,9 @@ export const Contact = () => {
                 variant="standard"
                 required
                 value={userEmail.value}
-                helperText={userEmail.message}
+                helperText={
+                  userEmail.isValid ? '' : t('form.emailNotValidMessage')
+                }
                 error={!userEmail.isValid}
                 onChange={handleChangeEmail}
               />
@@ -84,7 +80,9 @@ export const Contact = () => {
                 label={t('form.phone')}
                 variant="standard"
                 required
-                value={phone}
+                value={phone.value}
+                helperText={phone.isValid ? '' : t('form.phoneNotValidMessage')}
+                error={!phone.isValid}
                 onChange={handleChangePhone}
               />
               <TextField
@@ -93,7 +91,11 @@ export const Contact = () => {
                 variant="standard"
                 multiline
                 required
-                value={message}
+                value={message.value}
+                helperText={
+                  message.isValid ? '' : t('form.messageNotValidMessage')
+                }
+                error={!message.isValid}
                 onChange={handleChangeMessage}
               />
               <CustomButton
@@ -105,22 +107,22 @@ export const Contact = () => {
               </CustomButton>
             </form>
             <div className="bg-white flex flex-col w-full laptop:w-[360px] p-6 mt-6 laptop:mt-0 laptop:ml-6">
-              <p className="font-mont font-bold text-16 pb-2">
+              <p className="font-roboto-condensed font-bold text-20 pb-2">
                 {t('contacts.title')}
               </p>
-              <p className="font-mont pb-3">{t('contacts.content')}</p>
+              <p className="content-text pb-3">{t('contacts.content')}</p>
               <div className="flex flex-col">
                 <Typography className="font-mont font-bold leading-6 text-16 pb-2">
-                  {'Fr: +33651981641, +33758069214'}
+                  {'FR: +33651981641, +33758069214'}
                 </Typography>
                 <Typography className="font-mont font-bold leading-6 text-16 pb-2">
-                  {'En: +33758859618'}
+                  {'EN: +33758859618'}
                 </Typography>
                 <Typography className="font-mont font-bold leading-6 text-16 pb-2">
-                  {'Рус: +33608046383'}
+                  {'RU: +33608046383'}
                 </Typography>
                 <Typography className="font-mont font-bold leading-6 text-16">
-                  {'Укр: +33616814975'}
+                  {'UA: +33616814975'}
                 </Typography>
               </div>
             </div>

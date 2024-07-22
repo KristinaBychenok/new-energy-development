@@ -8,7 +8,7 @@ import { Wrapper } from '../components/layouts/wrapper'
 export default function Home() {
   return (
     <Wrapper>
-      <div className="w-full mt-14">
+      <div className="w-full">
         <MainInformation />
         <ServicesSection />
         <About />

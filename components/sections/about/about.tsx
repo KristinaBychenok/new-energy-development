@@ -6,7 +6,6 @@ import WorkHistoryIcon from '@mui/icons-material/WorkHistory'
 import EngineeringIcon from '@mui/icons-material/Engineering'
 import HandshakeIcon from '@mui/icons-material/Handshake'
 import LanguageIcon from '@mui/icons-material/Language'
-import aboutImg from '/about-us-photo.png'
 
 const achievementsIcons = [
   {
@@ -36,12 +35,8 @@ export const About = () => {
         id="about"
         className="flex flex-col pt-5 tablet:pt-10 laptop:pt-20 w-full"
       >
-        <Typography className="font-roboto-condensed text-blue-light font-medium leading-6 text-16">
-          {t('title')}
-        </Typography>
-        <Typography className="font-roboto-condensed text-grey-dark font-bold leading-[38px] text-32">
-          {t('subTitle')}
-        </Typography>
+        <Typography className="title-text mb-1">{t('title')}</Typography>
+        <Typography className="subtitle-text">{t('subTitle')}</Typography>
         <div className="flex flex-col-reverse laptop:flex-row items-start w-full pt-6">
           <div className="flex w-full laptop:w-[357px] laptop:h-[464px] pt-6 laptop:pt-0 laptop:pr-6 overflow-hidden">
             <div className="flex h-full overflow-auto w-full justify-center">
@@ -56,10 +51,10 @@ export const About = () => {
             </div>
           </div>
           <div className="flex flex-col w-full laptop:w-[740px]">
-            <Typography className="font-mont text-grey-dark font-normal leading-6 text-16 w-full pb-2">
+            <Typography className="content-text w-full pb-2">
               {t('content1')}
             </Typography>
-            <Typography className="font-mont text-grey-dark font-normal leading-6 text-16 w-full">
+            <Typography className="content-text w-full">
               {t('content2')}
             </Typography>
             <div className="grid grid-cols-1 tablet:grid-cols-2 gap-6 mt-5">

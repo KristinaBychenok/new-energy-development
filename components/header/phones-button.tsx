@@ -8,23 +8,23 @@ import { Alert } from '@mui/material'
 const phones = [
   {
     value: '+33651981641',
-    label: 'Fr: +33651981641, Alexander',
+    label: 'FR: +33651981641, Alexander',
   },
   {
     value: '+33758069214',
-    label: 'Fr: +33758069214, Tatiana',
+    label: 'FR: +33758069214, Tatiana',
   },
   {
     value: '+33758859618',
-    label: 'En: +33758859618, Michael',
+    label: 'EN: +33758859618, Michael',
   },
   {
     value: '+33608046383',
-    label: 'Рус: +33608046383, Александр',
+    label: 'RU: +33608046383, Александр',
   },
   {
     value: '+33616814975',
-    label: 'Укр: +33616814975, Олександр',
+    label: 'UA: +33616814975, Олександр',
   },
 ]
 
@@ -64,7 +64,7 @@ export const PhonesButton = () => {
     <div className="flex flex-col">
       <div
         onClick={() => setIsOpen(!isOpen)}
-        className="flex flex-col bg-blue-light rounded-[50px] mx-1 tablet:mx-0 px-6 py-[7px] relative"
+        className="flex flex-col bg-blue-light rounded-[50px] mx-1 tablet:mx-0 px-6 py-[6px] relative"
       >
         <div className="flex flex-row cursor-pointer">
           <PhoneIcon sx={{ color: 'white' }} fontSize="small" />
@@ -78,7 +78,7 @@ export const PhonesButton = () => {
       <div
         className={`${
           isOpen ? 'flex' : 'hidden'
-        } flex flex-col tablet:absolute tablet:top-14 tablet:right-0 bg-white font-roboto-condensed text-blue-default rounded-md`}
+        } flex flex-col tablet:absolute tablet:top-16 tablet:right-0 bg-white font-roboto-condensed text-blue-default rounded-md`}
       >
         {phones.map((phone) => (
           <Tooltip key={phone.value} title="Сopy" placement="left">

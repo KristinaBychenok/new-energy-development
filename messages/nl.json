@@ -208,7 +208,10 @@
         "form": {
           "name": "Naam",
           "email": "E-mail",
-          "emailNotValidMessage": "E-mail is niet geldig",
+          "nameNotValidMessage": "Naam is ongeldig of te lang",
+          "emailNotValidMessage": "E-mail is ongeldig",
+          "phoneNotValidMessage": "Telefoonnummer is ongeldig",
+          "messageNotValidMessage": "Bericht is te lang",
           "phone": "Telefoon",
           "case": "Kies uw geval",
           "message": "Uw bericht",

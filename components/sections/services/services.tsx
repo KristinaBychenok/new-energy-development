@@ -19,94 +19,69 @@ const servicesS = ['1', '2', '3', '4', '5', '6', '7', '8']
 export const ServicesSection = () => {
   const t = useTranslations('PageLayout.body.servicesSection')
 
-  const [expanded, setExpanded] = useState<string | false>(false)
-
-  const handleChange =
-    (panel: string) => (event: React.SyntheticEvent, isExpanded: boolean) => {
-      setExpanded(isExpanded ? panel : false)
-    }
+  const [openedPanelId, setOpenedPanelId] = useState('')
 
   return (
     <ContentWrapper>
       <div id="services" className="pt-5 tablet:pt-10 laptop:pt-20 relative">
-        <Typography className="font-roboto-condensed text-blue-light font-medium leading-6 text-16">
-          {t('title')}
-        </Typography>
-        <Typography className="font-roboto-condensed text-grey-dark font-bold leading-[38px] text-32 pb-6">
-          {t('subTitle')}
-        </Typography>
-        <div className="hidden laptop:flex laptop:w-full laptop:flex-col">
+        <Typography className="title-text mb-1">{t('title')}</Typography>
+        <Typography className="subtitle-text pb-6">{t('subTitle')}</Typography>
+        <div className="hidden laptop:grid laptop:row-span-3 gap-6 laptop:w-full">
           <ServicesAccordion
-            expanded={expanded}
             panel="panel1"
-            handleChange={handleChange}
-            aria="panel1-content"
-            summaryId="panel1-header-1"
             services={services1L}
+            openedPanelId={openedPanelId}
+            setOpenedPanelId={setOpenedPanelId}
           />
           <ServicesAccordion
-            expanded={expanded}
             panel="panel2"
-            handleChange={handleChange}
-            aria="panel2-content"
-            summaryId="panel2-header-1"
             services={services2L}
+            openedPanelId={openedPanelId}
+            setOpenedPanelId={setOpenedPanelId}
           />
           <ServicesAccordion
-            expanded={expanded}
             panel="panel3"
-            handleChange={handleChange}
-            aria="panel3-content"
-            summaryId="panel3-header-1"
             services={services3L}
             hasContactCard={true}
+            openedPanelId={openedPanelId}
+            setOpenedPanelId={setOpenedPanelId}
           ></ServicesAccordion>
         </div>
-        <div className="hidden big-mobile:flex big-mobile:flex-col big-mobile:w-full laptop:hidden">
+        <div className="hidden big-mobile:grid big-mobile:row-span-4 gap-6 big-mobile:w-full laptop:hidden">
           <ServicesAccordion
-            expanded={expanded}
             panel="panel1"
-            handleChange={handleChange}
-            aria="panel1-content"
-            summaryId="panel1-header-2"
             services={services1M}
+            openedPanelId={openedPanelId}
+            setOpenedPanelId={setOpenedPanelId}
           />
           <ServicesAccordion
-            expanded={expanded}
             panel="panel2"
-            handleChange={handleChange}
-            aria="panel2-content"
-            summaryId="panel2-header-2"
             services={services2M}
+            openedPanelId={openedPanelId}
+            setOpenedPanelId={setOpenedPanelId}
           />
           <ServicesAccordion
-            expanded={expanded}
             panel="panel3"
-            handleChange={handleChange}
-            aria="panel3-content"
-            summaryId="panel3-header-2"
             services={services3M}
+            openedPanelId={openedPanelId}
+            setOpenedPanelId={setOpenedPanelId}
           />
           <ServicesAccordion
-            expanded={expanded}
             panel="panel4"
-            handleChange={handleChange}
-            aria="panel4-content"
-            summaryId="panel4-header-2"
             services={services4M}
+            openedPanelId={openedPanelId}
+            setOpenedPanelId={setOpenedPanelId}
           />
         </div>
-        <div className="w-full flex flex-col big-mobile:hidden">
+        <div className="w-full grid row-span-8 gap-6 big-mobile:hidden">
           {servicesS.map((serviceId) => {
             return (
               <ServicesAccordion
                 key={serviceId}
-                expanded={expanded}
                 panel={`panel${serviceId}`}
-                handleChange={handleChange}
-                aria={`panel${serviceId}-content`}
-                summaryId={`panel${serviceId}-header-3`}
                 services={[serviceId]}
+                openedPanelId={openedPanelId}
+                setOpenedPanelId={setOpenedPanelId}
               />
             )
           })}

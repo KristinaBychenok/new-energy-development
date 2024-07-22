@@ -12,14 +12,14 @@ export const Header = () => {
     <AppBar
       position="static"
       color="transparent"
-      className="shadow-none border-none fixed bg-white z-50"
+      className="shadow-none border-none bg-white z-50"
     >
       <ContentWrapper>
         <Toolbar disableGutters className="flex justify-between items-center">
           <Link
             href={`/`}
             className="flex flex-row font-bold decoration-0 h-16 w-fit items-center justify-center"
-            aria-label="logo"
+            aria-label="Logo"
           >
             <Logo color="#022E66" />
             <Typography

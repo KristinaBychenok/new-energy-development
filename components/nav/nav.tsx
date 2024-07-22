@@ -60,6 +60,7 @@ export const Navigation = ({ isFooter }: { isFooter?: boolean }) => {
                 <Link
                   href={`/#${key}`}
                   className="font-roboto-condensed text-blue-default px-6 py-1"
+                  aria-label={`nav-item-${title}`}
                 >
                   {title}
                 </Link>
@@ -84,11 +85,12 @@ export const Navigation = ({ isFooter }: { isFooter?: boolean }) => {
             <Link
               key={title}
               href={`/#${key}`}
-              className={`font-roboto-condensed ${
+              className={`${
                 isFooter
-                  ? 'text-white pb-2'
-                  : 'text-blue-default px-3 laptop:px-6 py-1'
+                  ? 'font-mont text-white pb-2'
+                  : 'font-roboto-condensed text-blue-default px-3 laptop:px-6 py-1'
               }`}
+              aria-label={`nav-item-${title}`}
             >
               {title}
             </Link>

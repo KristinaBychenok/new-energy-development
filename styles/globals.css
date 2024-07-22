@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  overflow-x: hidden;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,5 +24,16 @@
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+@layer components {
+  .title-text {
+    @apply font-roboto-condensed text-blue-light font-medium leading-6 text-16;
+  }
+  .subtitle-text {
+    @apply font-roboto-condensed text-grey-dark font-bold leading-[38px] text-32;
+  }
+  .content-text {
+    @apply font-mont text-grey-dark font-normal leading-6 text-16;
   }
 }

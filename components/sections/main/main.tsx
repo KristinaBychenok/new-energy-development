@@ -13,23 +13,17 @@ export const MainInformation = () => {
     <div className="relative flex flex-col w-full bg-beige pt-10 tablet:py-10 desktop:py-20">
       <ContentWrapper>
         <div className="w-full tablet:w-[324px] laptop:w-[424px] desktop:w-[536px]">
-          <Typography
-            variant="h4"
-            className="font-roboto-condensed text-18 font-bold leading-[25.2px] text-blue-light mb-1"
-          >
-            {t('title')}
-          </Typography>
-          <Typography
-            variant="h1"
-            className="font-roboto-condensed text-40 font-bold leading-[48px] text-blue-dark pb-4"
-          >
+          <Typography className="title-text mb-1">{t('title')}</Typography>
+          <Typography className="subtitle-text pb-4">
             {t('subTitle')}
           </Typography>
-          <Typography className="font-mont text-grey-dark font-normal leading-6 text-16">
-            {t('content')}
-          </Typography>
+          <Typography className="content-text">{t('content')}</Typography>
         </div>
-        <Link href="/#contact" className="flex w-fit h-fit">
+        <Link
+          href="/#contact"
+          className="flex w-fit h-fit"
+          aria-label="contact-us-button"
+        >
           <CustomButton>{t('button')}</CustomButton>
         </Link>
       </ContentWrapper>

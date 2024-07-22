@@ -13,7 +13,7 @@ export const ContactCardContent: FC = () => {
       <p className="font-mont pb-3">{t('contact.content')}</p>
       <div className="flex flex-col">
         <Typography className="font-mont leading-6 text-16 pb-2">
-          {'Fr: '}
+          {'FR: '}
           {
             <span className="font-mont font-bold text-16">
               {'+33651981641, +33758069214'}
@@ -21,13 +21,13 @@ export const ContactCardContent: FC = () => {
           }
         </Typography>
         <Typography className="font-mont font-bold leading-6 text-16 pb-2">
-          {'En: +33758859618'}
+          {'EN: +33758859618'}
         </Typography>
         <Typography className="font-mont font-bold leading-6 text-16 pb-2">
-          {'Рус: +33608046383'}
+          {'RU: +33608046383'}
         </Typography>
         <Typography className="font-mont font-bold leading-6 text-16">
-          {'Укр: +33616814975'}
+          {'UA: +33616814975'}
         </Typography>
       </div>
     </>

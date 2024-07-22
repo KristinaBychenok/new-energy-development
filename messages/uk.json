@@ -208,7 +208,10 @@
         "form": {
           "name": "Ім'я",
           "email": "Електронна пошта",
-          "emailNotValidMessage": "Невірна електронна адреса",
+          "nameNotValidMessage": "Ім'я недійсне або занадто довге",
+          "emailNotValidMessage": "Електронна пошта недійсна",
+          "phoneNotValidMessage": "Телефонний номер недійсний",
+          "messageNotValidMessage": "Повідомлення занадто довге",
           "phone": "Телефон",
           "case": "Оберіть ваш випадок",
           "message": "Ваше повідомлення",

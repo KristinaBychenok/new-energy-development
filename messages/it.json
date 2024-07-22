@@ -208,7 +208,10 @@
         "form": {
           "name": "Nome",
           "email": "E-mail",
+          "nameNotValidMessage": "Il nome non è valido o è troppo lungo",
           "emailNotValidMessage": "L'email non è valida",
+          "phoneNotValidMessage": "Il numero di telefono non è valido",
+          "messageNotValidMessage": "Il messaggio è troppo lungo",
           "phone": "Telefono",
           "case": "Scegli il tuo caso",
           "message": "Il tuo messaggio",
