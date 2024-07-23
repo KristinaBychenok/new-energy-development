@@ -20,7 +20,7 @@ export const Footer = () => {
             <Link href={`/`} aria-label="Logo">
               <Logo color="#FFFFFF" />
             </Link>
-            <Typography className="w-[300px] font-mont text-white font-normal leading-6 text-16">
+            <Typography className="w-[300px] content-text-white">
               {t('logo')}
             </Typography>
             {/* <div className="laptop:pt-4 flex">
@@ -39,33 +39,32 @@ export const Footer = () => {
             </div> */}
           </div>
           <div className="w-[320px]">
-            <Typography className="w-[300px] font-roboto-condensed text-white font-bold leading-6 text-16 pb-2">
+            <Typography className="w-[300px] title-text-white pb-2">
               {t('contacts.title')}:
             </Typography>
-            <Typography className="w-[300px] font-mont text-white leading-6 text-16 pb-2">
-              <span className="font-normal">{t('contacts.email')}:</span>{' '}
-              test@test.test
+            <Typography className="w-[300px] content-text-white pb-2">
+              {t('contacts.email')}: test@test.test
             </Typography>
             <div className="flex flex-col">
-              <Typography className="w-[300px] font-roboto-condensed text-white font-bold leading-6 text-16 pb-2">
+              <Typography className="w-[300px] title-text-white pb-2">
                 {`${t('contacts.phones')}:`}
               </Typography>
-              <Typography className="w-[300px] font-mont text-white font-bold leading-6 text-16 pb-2">
+              <Typography className="w-[300px] content-text-white pb-2">
                 {'FR: +33651981641, +33758069214'}
               </Typography>
-              <Typography className="w-[300px] font-mont text-white font-bold leading-6 text-16 pb-2">
+              <Typography className="w-[300px] content-text-white pb-2">
                 {'EN: +33758859618'}
               </Typography>
-              <Typography className="w-[300px] font-mont text-white font-bold leading-6 text-16 pb-2">
+              <Typography className="w-[300px] content-text-white pb-2">
                 {'RU: +33608046383'}
               </Typography>
-              <Typography className="w-[300px] font-mont text-white font-bold leading-6 text-16">
+              <Typography className="w-[300px] content-text-white">
                 {'UA: +33616814975'}
               </Typography>
             </div>
           </div>
           <div>
-            <Typography className="w-[300px] font-roboto-condensed text-white font-bold leading-6 text-16 pb-2">
+            <Typography className="w-[300px] title-text-white pb-2">
               {t('map')}
             </Typography>
             <Navigation isFooter={true} />

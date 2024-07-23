@@ -65,10 +65,10 @@ export const About = () => {
                       {achievement.icon}
                     </div>
                     <div className="flex flex-col">
-                      <p className="font-mont font-bold text-16">
+                      <p className="content-text font-bold">
                         {t(`achievements.${achievement.id}.title`)}
                       </p>
-                      <p className="font-mont">
+                      <p className="content-text">
                         {t(`achievements.${achievement.id}.content`)}
                       </p>
                     </div>

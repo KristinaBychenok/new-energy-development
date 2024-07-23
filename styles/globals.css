@@ -30,10 +30,16 @@
   .title-text {
     @apply font-roboto-condensed text-blue-light font-medium leading-6 text-16;
   }
+  .title-text-white {
+    @apply font-roboto-condensed text-white font-bold leading-6 text-16;
+  }
   .subtitle-text {
     @apply font-roboto-condensed text-grey-dark font-bold leading-[38px] text-32;
   }
   .content-text {
     @apply font-mont text-grey-dark font-normal leading-6 text-16;
+  }
+  .content-text-white {
+    @apply font-mont text-white font-normal leading-6 text-16;
   }
 }

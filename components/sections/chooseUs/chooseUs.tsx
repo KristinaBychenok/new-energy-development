@@ -23,7 +23,7 @@ export const ChooseUs = () => {
             <Typography className="font-roboto-condensed text-blue-light font-medium leading-[26px] text-20 pt-4">
               {t('reasons.1.title')}
             </Typography>
-            <Typography className="font-mont text-grey-dark font-normal leading-6 text-16">
+            <Typography className="content-text">
               {t('reasons.1.subTitle')}
             </Typography>
           </div>
@@ -32,7 +32,7 @@ export const ChooseUs = () => {
             <Typography className="font-roboto-condensed text-blue-light font-medium leading-[26px] text-20 pt-4">
               {t('reasons.2.title')}
             </Typography>
-            <Typography className="font-mont text-grey-dark font-normal leading-6 text-16">
+            <Typography className="content-text">
               {t('reasons.2.subTitle')}
             </Typography>
           </div>
@@ -41,7 +41,7 @@ export const ChooseUs = () => {
             <Typography className="font-roboto-condensed text-blue-light font-medium leading-[26px] text-20 pt-4">
               {t('reasons.3.title')}
             </Typography>
-            <Typography className="font-mont text-grey-dark font-normal leading-6 text-16">
+            <Typography className="content-text">
               {t('reasons.3.subTitle')}
             </Typography>
           </div>

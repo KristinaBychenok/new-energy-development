@@ -210,7 +210,7 @@
           "email": "E-mail",
           "nameNotValidMessage": "Il nome non è valido o è troppo lungo",
           "emailNotValidMessage": "L'email non è valida",
-          "phoneNotValidMessage": "Il numero di telefono non è valido",
+          "phoneNotValidMessage": "Il numero di telefono non è valido o è troppo lungo",
           "messageNotValidMessage": "Il messaggio è troppo lungo",
           "phone": "Telefono",
           "case": "Scegli il tuo caso",

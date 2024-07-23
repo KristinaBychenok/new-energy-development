@@ -112,17 +112,21 @@ export const Contact = () => {
               </p>
               <p className="content-text pb-3">{t('contacts.content')}</p>
               <div className="flex flex-col">
-                <Typography className="font-mont font-bold leading-6 text-16 pb-2">
-                  {'FR: +33651981641, +33758069214'}
+                <Typography className="content-text pb-2">
+                  <span className="font-bold">{'FR: '}</span>
+                  {'+33651981641, +33758069214'}
                 </Typography>
-                <Typography className="font-mont font-bold leading-6 text-16 pb-2">
-                  {'EN: +33758859618'}
+                <Typography className="content-text pb-2">
+                  <span className="font-bold">{'EN: '}</span>
+                  {'+33758859618'}
                 </Typography>
-                <Typography className="font-mont font-bold leading-6 text-16 pb-2">
-                  {'RU: +33608046383'}
+                <Typography className="content-text pb-2">
+                  <span className="font-bold">{'RU: '}</span>
+                  {'+33608046383'}
                 </Typography>
-                <Typography className="font-mont font-bold leading-6 text-16">
-                  {'UA: +33616814975'}
+                <Typography className="content-text">
+                  <span className="font-bold">{'UA: '}</span>
+                  {'+33616814975'}
                 </Typography>
               </div>
             </div>

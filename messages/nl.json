@@ -210,7 +210,7 @@
           "email": "E-mail",
           "nameNotValidMessage": "Naam is ongeldig of te lang",
           "emailNotValidMessage": "E-mail is ongeldig",
-          "phoneNotValidMessage": "Telefoonnummer is ongeldig",
+          "phoneNotValidMessage": "Telefoonnummer is ongeldig of te lang",
           "messageNotValidMessage": "Bericht is te lang",
           "phone": "Telefoon",
           "case": "Kies uw geval",

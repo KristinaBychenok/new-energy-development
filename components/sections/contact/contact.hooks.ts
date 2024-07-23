@@ -91,7 +91,8 @@ export const useGetContact = () => {
     const isPhoneValid =
       e.target.value === ''
         ? true
-        : checkRegExpField(e.target.value, phoneRegExp)
+        : checkRegExpField(e.target.value, phoneRegExp) &&
+          e.target.value.length <= 12
     setPhone({
       value: e.target.value,
       isValid: isPhoneValid,

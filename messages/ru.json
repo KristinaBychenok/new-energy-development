@@ -210,7 +210,7 @@
           "email": "Электронная почта",
           "nameNotValidMessage": "Имя неверное или слишком длинное",
           "emailNotValidMessage": "Неверная электронная почта",
-          "phoneNotValidMessage": "Телефон неверный",
+          "phoneNotValidMessage": "Телефон неверный или слишком длинный",
           "messageNotValidMessage": "Сообщение слишком длинное",
           "phone": "Телефон",
           "case": "Выберите ваш случай",

@@ -1,5 +1,5 @@
 import { Tooltip } from '@mui/material'
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import PhoneIcon from '@mui/icons-material/Phone'
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown'
 import { useTranslations } from 'next-intl'
@@ -40,6 +40,23 @@ export const PhonesButton = () => {
     color: 'success',
     message: '',
   })
+  const buttonRef = useRef<HTMLDivElement>(null)
+  const handleClickOutside = (event: MouseEvent) => {
+    if (
+      buttonRef.current &&
+      !buttonRef.current.contains(event.target as Node)
+    ) {
+      setIsOpen(false)
+    }
+  }
+
+  useEffect(() => {
+    document.addEventListener('mousedown', handleClickOutside)
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside)
+    }
+  }, [])
 
   useEffect(() => {
     const timer1 = setTimeout(
@@ -65,6 +82,7 @@ export const PhonesButton = () => {
       <div
         onClick={() => setIsOpen(!isOpen)}
         className="flex flex-col bg-blue-light rounded-[50px] mx-1 tablet:mx-0 px-6 py-[6px] relative"
+        ref={buttonRef}
       >
         <div className="flex flex-row cursor-pointer">
           <PhoneIcon sx={{ color: 'white' }} fontSize="small" />
