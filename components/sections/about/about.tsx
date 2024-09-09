@@ -41,12 +41,12 @@ export const About = () => {
           <div className="flex w-full laptop:w-[357px] laptop:h-[464px] pt-6 laptop:pt-0 laptop:pr-6 overflow-hidden">
             <div className="flex h-full overflow-auto w-full justify-center">
               <Image
-                src="/about-us-photo.webp"
+                src="/about_us.jpg"
                 width={357}
                 height={464}
                 alt="about-us-photo"
-                className="object-cover w-full laptop:w-[357px]"
-                sizes="(max-width:768px) 100%, (min-width: 769px) 357px, 357px"
+                className="object-cover"
+                // sizes="(max-width:768px) 100%, (min-width: 769px) 357px, 357px"
               />
             </div>
           </div>
@@ -61,7 +61,7 @@ export const About = () => {
               {achievementsIcons.map((achievement) => {
                 return (
                   <div key={achievement.id} className="flex flex-row">
-                    <div className="rounded-full bg-blue-light h-fit w-fit p-2 mr-4">
+                    <div className="rounded-full bg-blue-light h-10 w-10 p-2 mr-4 items-center justify-center">
                       {achievement.icon}
                     </div>
                     <div className="flex flex-col">

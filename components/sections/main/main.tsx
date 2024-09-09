@@ -4,7 +4,7 @@ import { Typography } from '@mui/material'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import Link from 'next/link'
-import mainImage from '../../../public/main-info-photo.webp'
+import mainImage from '../../../public/main-info-photo.jpg'
 
 export const MainInformation = () => {
   const t = useTranslations('PageLayout.body.mainSection')
@@ -34,7 +34,9 @@ export const MainInformation = () => {
             alt="Main-info-photo"
             className="object-cover"
             priority
-            sizes="(min-width:768px) 372px, (min-width: 1024px) 524px, (min-width: 1440px) 695px, 695px"
+            width={695}
+            height={510}
+            // sizes="(min-width:768px) 372px, (min-width: 1024px) 524px, (min-width: 1440px) 695px, 695px"
           />
         </div>
       </div>

@@ -44,23 +44,24 @@
         "title": "Onze diensten",
         "subTitle": "Werk van hoge kwaliteit van elke complexiteit",
         "worksTitle": "Wat is inbegrepen in onze diensten?",
+        "buttonOpen": "Meer details",
+        "buttonClose": "Minder details",
         "services": {
           "1": {
             "title": "Ingenieurssystemen",
             "subTitle": "Ontwerp, installatie en onderhoud van netwerken en systemen.",
-            "img": "/service-1.webp",
+            "img": "/engeneering_systems.jpg",
             "works": {
               "1": "- Ontwerp van gebouwensystemen;",
               "2": "- Installatie en onderhoud van automatiserings- en beheer systemen;",
               "3": "- Installatie van brandalarm- en blussystemen;",
               "4": "- Installatie van beveiligings- en videobewakingssystemen;"
-            },
-            "button": "Meer details"
+            }
           },
           "2": {
             "title": "Elektrisch werk",
             "subTitle": "Installatie, onderhoud en reparatie van elektrische systemen en bedrading.",
-            "img": "/service-2.webp",
+            "img": "/electrical_work.jpg",
             "works": {
               "1": "- Installatie en vervanging van elektrische bedrading;",
               "2": "- Installatie en vervanging van stopcontacten en schakelaars;",
@@ -72,26 +73,24 @@
               "8": "- Installatie van aardings- en bliksembeveiligingssystemen;",
               "9": "- Configuratie en installatie van smart home systemen;",
               "10": "- Aansluiting van huishoudelijke apparaten en elektronica."
-            },
-            "button": "Meer details"
+            }
           },
           "3": {
             "title": "Loodgieterswerk",
             "subTitle": "Installatie, reparatie en onderhoud van waterleidingen, afvoeren en rioleringssystemen.",
-            "img": "/service-3.webp",
+            "img": "/plumbing.jpg",
             "works": {
               "1": "- Installatie van waterleidingen en afvoeren;",
               "2": "- Installatie van diverse hulpprogramma's (meters, filters, enz.);",
               "3": "- Installatie van wastafels, badkuipen, douches en toiletten;",
               "4": "- Installatie van verwarmingssystemen;",
               "5": "- Aansluiting van huishoudelijke apparaten."
-            },
-            "button": "Meer details"
+            }
           },
           "4": {
             "title": "Airconditioning en verwarming",
             "subTitle": "Installatie, onderhoud en reparatie van HVAC-systemen voor efficiënte klimaatbeheersing.",
-            "img": "/service-4.webp",
+            "img": "/air_conditioner_installation.jpg",
             "works": {
               "1": "- Installatie en onderhoud van airconditioners;",
               "2": "- Installatie en onderhoud van ventilatiesystemen;",
@@ -103,13 +102,12 @@
               "8": "- Ontwerp en installatie van klimaatbeheersingssystemen;",
               "9": "- Installatie en onderhoud van luchtbevochtigers en luchtontvochtigers;",
               "10": "- Preventieve inspectie en reiniging van verwarmings- en airconditioningsystemen."
-            },
-            "button": "Meer details"
+            }
           },
           "5": {
             "title": "Zwembaden",
             "subTitle": "Ontwerp, bouw en onderhoud van residentiële en commerciële zwembaden, inclusief filtratie-, verwarmings- en veiligheidssystemen.",
-            "img": "/service-5.webp",
+            "img": "/swimming_pools.jpg",
             "works": {
               "1": "- Ontwerp van zwembaden;",
               "2": "- Graafwerkzaamheden en voorbereiding van de locatie;",
@@ -122,13 +120,12 @@
               "9": "- Onderhoud en reparatie van zwembaden;",
               "10": "- Preventieve reiniging en waterbehandeling;",
               "11": "- Installatie en afstelling van automatische zwembad afdekkingen."
-            },
-            "button": "Meer details"
+            }
           },
           "6": {
             "title": "Verhuizingen",
             "subTitle": "Coördinatie en uitvoering van verhuisdiensten, inclusief inpakken, transport en installatie voor residentiële en commerciële panden.",
-            "img": "/service-6.webp",
+            "img": "/relocation.jpg",
             "works": {
               "1": "- Beoordeling van de omvang van het werk en planning van de verhuizing;",
               "2": "- Verstrekking van verpakkingsmaterialen;",
@@ -141,13 +138,12 @@
               "9": "- Aansluiting van huishoudelijke apparaten;",
               "10": "- Schoonmaken van de ruimtes na de verhuizing;",
               "11": "- Verwijdering van verpakkingsmaterialen."
-            },
-            "button": "Meer details"
+            }
           },
           "7": {
             "title": "Demonteren en afval verwijderen",
             "subTitle": "Veilige demontage van structuren en efficiënte verwijdering van puin en afval van bouw- en slooplocaties.",
-            "img": "/service-7.webp",
+            "img": "/dismantling_waste.jpg",
             "works": {
               "1": "- Beoordeling van het volume en de complexiteit van het werk;",
               "2": "- Voorbereiding en afzetting van het werkgebied;",
@@ -160,13 +156,12 @@
               "9": "- Sorteren en verpakken van bouwafval;",
               "10": "- Laden en verwijderen van bouwafval;",
               "11": "- Schoonmaken van het gebied na sloopwerkzaamheden."
-            },
-            "button": "Meer details"
+            }
           },
           "8": {
             "title": "Juridische ondersteuning",
             "subTitle": "Omvattende juridische diensten inclusief advies, documentatie en vertegenwoordiging voor bouwprojecten, waarbij naleving wordt gegarandeerd en juridische problemen worden opgelost.",
-            "img": "/service-8.webp",
+            "img": "/legal_support.jpg",
             "works": {
               "1": "- Juridisch advies;",
               "2": "- Voorbereiding en analyse van juridische documenten;",
@@ -174,8 +169,7 @@
               "4": "- Ondersteuning bij vastgoedtransacties;",
               "5": "- Toezicht door een architect;",
               "6": "- Behandeling van verzekeringszaken."
-            },
-            "button": "Meer details"
+            }
           }
         },
         "contact": {

@@ -44,23 +44,24 @@
         "title": "Our services",
         "subTitle": "High-quality work of any complexity",
         "worksTitle": "What is included in our services?",
+        "buttonOpen": "More Details",
+        "buttonClose": "Less Details",
         "services": {
           "1": {
             "title": "Engineering systems",
             "subTitle": "Design, installation and maintenance of engineering networks and systems.",
-            "img": "/service-1.webp",
+            "img": "/engeneering_systems.jpg",
             "works": {
               "1": "- Design of building engineering systems;",
               "2": "- Installation and maintenance of automation and dispatch systems;",
               "3": "- Installation of fire alarm and fire extinguishing systems;",
               "4": "- Installation of security and video surveillance systems;"
-            },
-            "button": "More details"
+            }
           },
           "2": {
             "title": "Electrical work",
             "subTitle": "Installation, maintenance, and repair of electrical systems and wiring.",
-            "img": "/service-2.webp",
+            "img": "/electrical_work.jpg",
             "works": {
               "1": "- Installation and replacement of electrical wiring;",
               "2": "- Installation and replacement of outlets and switches;",
@@ -72,26 +73,24 @@
               "8": "- Installation of grounding and lightning protection systems;",
               "9": "- Setup and installation of smart home systems;",
               "10": "- Connection of household appliances and electronics."
-            },
-            "button": "More details"
+            }
           },
           "3": {
             "title": "Plumbing",
             "subTitle": "Installation, repair, and maintenance of water supply, drainage, and sewage systems.",
-            "img": "/service-3.webp",
+            "img": "/plumbing.jpg",
             "works": {
               "1": "- Installation of water supply and sewage pipes;",
               "2": "- Installation of various auxiliary devices (meters, filters, etc.);",
               "3": "- Installation of sinks, bathtubs, shower cabins, and toilets;",
               "4": "- Installation of heating systems;",
               "5": "- Connection of household appliances."
-            },
-            "button": "More details"
+            }
           },
           "4": {
             "title": "Air conditioning and heating",
             "subTitle": "Installation, maintenance, and repair of HVAC systems to ensure efficient climate control.",
-            "img": "/service-4.webp",
+            "img": "/air_conditioner_installation.jpg",
             "works": {
               "1": "- Installation and maintenance of air conditioners;",
               "2": "- Installation and maintenance of ventilation systems;",
@@ -103,13 +102,12 @@
               "8": "- Design and installation of climate control systems;",
               "9": "- Installation and maintenance of humidifiers and dehumidifiers;",
               "10": "- Preventive inspection and cleaning of heating and air conditioning systems."
-            },
-            "button": "More details"
+            }
           },
           "5": {
             "title": "Swimming pools",
             "subTitle": "Design, construction, and maintenance of residential and commercial swimming pools, including filtration, heating, and safety systems.",
-            "img": "/service-5.webp",
+            "img": "/swimming_pools.jpg",
             "works": {
               "1": "- Design of swimming pools;",
               "2": "- Earthworks and site preparation;",
@@ -122,13 +120,12 @@
               "9": "- Maintenance and repair of swimming pools;",
               "10": "- Preventive cleaning and water treatment;",
               "11": "- Installation and adjustment of automatic pool covers."
-            },
-            "button": "More details"
+            }
           },
           "6": {
             "title": "Relocations",
             "subTitle": "Coordination and execution of moving services, including packing, transportation, and setup for residential and commercial properties.",
-            "img": "/service-6.webp",
+            "img": "/relocation.jpg",
             "works": {
               "1": "- Assessment of the scope of work and planning the move;",
               "2": "- Providing packing materials;",
@@ -141,13 +138,12 @@
               "9": "- Connection of household appliances;",
               "10": "- Cleaning of premises after the move;",
               "11": "- Disposal of packing materials."
-            },
-            "button": "More details"
+            }
           },
           "7": {
             "title": "Dismantling and waste removal",
             "subTitle": "Safe dismantling of structures and efficient removal of debris and waste from construction and demolition sites.",
-            "img": "/service-7.webp",
+            "img": "/dismantling_waste.jpg",
             "works": {
               "1": "- Assessment of the volume and complexity of the work;",
               "2": "- Preparation and fencing of the work area;",
@@ -160,13 +156,12 @@
               "9": "- Sorting and packaging of construction waste;",
               "10": "- Loading and removal of construction debris;",
               "11": "- Cleaning the area after demolition work."
-            },
-            "button": "More details"
+            }
           },
           "8": {
             "title": "Legal support",
             "subTitle": "Comprehensive legal services including consultation, documentation, and representation for construction projects, ensuring compliance and resolving legal issues.",
-            "img": "/service-8.webp",
+            "img": "/legal_support.jpg",
             "works": {
               "1": "- Legal consulting;",
               "2": "- Preparation and analysis of legal documents;",
@@ -174,8 +169,7 @@
               "4": "- Support in real estate transactions;",
               "5": "- Supervision by an architect;",
               "6": "- Handling insurance cases."
-            },
-            "button": "More details"
+            }
           }
         },
         "contact": {

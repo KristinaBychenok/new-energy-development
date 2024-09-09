@@ -81,7 +81,7 @@ export const PhonesButton = () => {
     <div className="flex flex-col">
       <div
         onClick={() => setIsOpen(!isOpen)}
-        className="flex flex-col bg-blue-light rounded-[50px] mx-1 tablet:mx-0 px-6 py-[6px] relative"
+        className="flex flex-col bg-blue-light rounded-md mx-1 tablet:mx-0 px-6 py-[6px] relative"
         ref={buttonRef}
       >
         <div className="flex flex-row cursor-pointer">
@@ -96,12 +96,12 @@ export const PhonesButton = () => {
       <div
         className={`${
           isOpen ? 'flex' : 'hidden'
-        } flex flex-col tablet:absolute tablet:top-16 tablet:right-0 bg-white font-roboto-condensed text-blue-default rounded-md`}
+        } flex flex-col tablet:absolute tablet:top-16 tablet:right-0 bg-white font-roboto-condensed text-blue-default`}
       >
         {phones.map((phone) => (
           <Tooltip key={phone.value} title="Сopy" placement="left">
             <div
-              className="flex items-center text-center py-2 px-2 cursor-pointer w-fit text-nowrap"
+              className="flex items-center text-center py-2 px-2 cursor-pointer w-full text-nowrap hover:bg-[#0000000A]"
               onClick={() => {
                 handleCopyPhoneClick(phone.value)
                 setAlert({

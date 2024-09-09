@@ -64,7 +64,11 @@ export const ServicesAccordion = ({
               img={t(`services.${serviceId}.img`)}
               title={t(`services.${serviceId}.title`)}
               subTitle={t(`services.${serviceId}.subTitle`)}
-              button={t(`services.${serviceId}.button`)}
+              button={
+                isCartOpened && isPanelExpanded && openedServiceId === serviceId
+                  ? t(`buttonClose`)
+                  : t(`buttonOpen`)
+              }
               onClickCard={onClickCard}
               isCartOpened={isCartOpened && isPanelExpanded}
               openedServiceId={openedServiceId}

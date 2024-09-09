@@ -44,23 +44,24 @@
         "title": "Unsere Dienstleistungen",
         "subTitle": "Hochwertige Arbeit jeder Komplexität",
         "worksTitle": "Was ist in unseren Dienstleistungen enthalten?",
+        "buttonOpen": "Mehr Details",
+        "buttonClose": "Weniger Details",
         "services": {
           "1": {
             "title": "Technische Systeme",
             "subTitle": "Planung, Installation und Wartung von technischen Netzwerken und Systemen.",
-            "img": "/service-1.webp",
+            "img": "/engeneering_systems.jpg",
             "works": {
               "1": "- Planung von Gebäudetechniksystemen;",
               "2": "- Installation und Wartung von Automations- und Leitsystemen;",
               "3": "- Installation von Brandmelde- und Feuerlöschsystemen;",
               "4": "- Installation von Sicherheits- und Videosicherungssystemen;"
-            },
-            "button": "Mehr Details"
+            }
           },
           "2": {
             "title": "Elektroarbeiten",
             "subTitle": "Installation, Wartung und Reparatur von elektrischen Systemen und Verkabelungen.",
-            "img": "/service-2.webp",
+            "img": "/electrical_work.jpg",
             "works": {
               "1": "- Installation und Austausch von Elektroinstallationen;",
               "2": "- Installation und Austausch von Steckdosen und Schaltern;",
@@ -72,26 +73,24 @@
               "8": "- Installation von Erdungs- und Blitzschutzsystemen;",
               "9": "- Einrichtung und Installation von Smart Home-Systemen;",
               "10": "- Anschluss von Haushaltsgeräten und Elektronik."
-            },
-            "button": "Mehr Details"
+            }
           },
           "3": {
             "title": "Sanitär",
             "subTitle": "Installation, Reparatur und Wartung von Wasserversorgungs-, Abwasser- und Abwassersystemen.",
-            "img": "/service-3.webp",
+            "img": "/plumbing.jpg",
             "works": {
               "1": "- Installation von Wasserversorgungs- und Abwasserrohren;",
               "2": "- Installation verschiedener Hilfseinrichtungen (Messgeräte, Filter usw.);",
               "3": "- Installation von Waschbecken, Badewannen, Duschkabinen und Toiletten;",
               "4": "- Installation von Heizsystemen;",
               "5": "- Anschluss von Haushaltsgeräten."
-            },
-            "button": "Mehr Details"
+            }
           },
           "4": {
             "title": "Klima- und Heiztechnik",
             "subTitle": "Installation, Wartung und Reparatur von HVAC-Systemen zur effizienten Klimaregelung.",
-            "img": "/service-4.webp",
+            "img": "/air_conditioner_installation.jpg",
             "works": {
               "1": "- Installation und Wartung von Klimaanlagen;",
               "2": "- Installation und Wartung von Lüftungssystemen;",
@@ -103,13 +102,12 @@
               "8": "- Design und Installation von Klimaregelungssystemen;",
               "9": "- Installation und Wartung von Luftbefeuchtern und Entfeuchtern;",
               "10": "- Vorbeugende Inspektion und Reinigung von Heiz- und Klimaanlagensystemen."
-            },
-            "button": "Mehr Details"
+            }
           },
           "5": {
             "title": "Schwimmbäder",
             "subTitle": "Planung, Bau und Wartung von privaten und kommerziellen Schwimmbädern, einschließlich Filter-, Heiz- und Sicherheitssystemen.",
-            "img": "/service-5.webp",
+            "img": "/swimming_pools.jpg",
             "works": {
               "1": "- Planung von Schwimmbädern;",
               "2": "- Erdarbeiten und Geländevorbereitung;",
@@ -122,13 +120,12 @@
               "9": "- Wartung und Reparatur von Schwimmbädern;",
               "10": "- Vorbeugende Reinigung und Wasserbehandlung;",
               "11": "- Installation und Einstellung von automatischen Poolabdeckungen."
-            },
-            "button": "Mehr Details"
+            }
           },
           "6": {
             "title": "Umzüge",
             "subTitle": "Koordination und Durchführung von Umzugsdienstleistungen, einschließlich Verpackung, Transport und Einrichtung für Wohn- und Gewerbeimmobilien.",
-            "img": "/service-6.webp",
+            "img": "/relocation.jpg",
             "works": {
               "1": "- Bewertung des Arbeitsumfangs und Planung des Umzugs;",
               "2": "- Bereitstellung von Verpackungsmaterialien;",
@@ -141,13 +138,12 @@
               "9": "- Anschluss von Haushaltsgeräten;",
               "10": "- Reinigung der Räumlichkeiten nach dem Umzug;",
               "11": "- Entsorgung von Verpackungsmaterialien."
-            },
-            "button": "Mehr Details"
+            }
           },
           "7": {
             "title": "Demontage und Entsorgung",
             "subTitle": "Sichere Demontage von Strukturen und effiziente Entsorgung von Abfällen und Schutt von Baustellen und Abrissstellen.",
-            "img": "/service-7.webp",
+            "img": "/dismantling_waste.jpg",
             "works": {
               "1": "- Bewertung des Volumens und der Komplexität der Arbeit;",
               "2": "- Vorbereitung und Abgrenzung des Arbeitsbereichs;",
@@ -160,13 +156,12 @@
               "9": "- Sortierung und Verpackung von Bauschutt;",
               "10": "- Laden und Entsorgung von Bauschutt;",
               "11": "- Reinigung des Bereichs nach Abrissarbeiten."
-            },
-            "button": "Mehr Details"
+            }
           },
           "8": {
             "title": "Rechtliche Unterstützung",
             "subTitle": "Umfassende rechtliche Dienstleistungen einschließlich Beratung, Dokumentation und Vertretung für Bauvorhaben, um die Einhaltung zu gewährleisten und rechtliche Probleme zu lösen.",
-            "img": "/service-8.webp",
+            "img": "/legal_support.jpg",
             "works": {
               "1": "- Rechtsberatung;",
               "2": "- Erstellung und Analyse von Rechtsdokumenten;",
@@ -174,8 +169,7 @@
               "4": "- Unterstützung bei Immobiliengeschäften;",
               "5": "- Überwachung durch einen Architekten;",
               "6": "- Bearbeitung von Versicherungsfällen."
-            },
-            "button": "Mehr Details"
+            }
           }
         },
         "contact": {

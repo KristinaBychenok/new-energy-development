@@ -29,7 +29,7 @@ export const ServiceCard = ({
   return (
     <div
       id={`cart-${serviceId}`}
-      className="flex flex-col h-full bg-white shadow-md relative"
+      className="flex flex-col h-full bg-white shadow-md relative cursor-pointer"
       onClick={() => {
         onClickCard(serviceId)
       }}
@@ -54,7 +54,7 @@ export const ServiceCard = ({
             {button}
           </div>
           <ArrowDropDownIcon
-            sx={{ color: 'blue-light' }}
+            sx={{ color: '#52658F' }}
             className={`${
               isCartOpened && openedServiceId === serviceId ? 'rotate-180' : ''
             }`}

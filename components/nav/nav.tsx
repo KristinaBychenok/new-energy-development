@@ -88,7 +88,7 @@ export const Navigation = ({ isFooter }: { isFooter?: boolean }) => {
               className={`${
                 isFooter
                   ? 'content-text-white pb-2'
-                  : 'font-roboto-condensed text-blue-default px-3 laptop:px-6 py-1'
+                  : 'font-roboto-condensed text-blue-default px-3 laptop:px-6 py-1 rounded-md hover:bg-grey-light active:bg-grey-light'
               }`}
               aria-label={`nav-item-${title}`}
             >

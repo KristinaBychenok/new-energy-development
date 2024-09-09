@@ -136,11 +136,11 @@ export const Contact = () => {
       <div className="flex w-full h-[540px] pt-6 tablet:pt-0 overflow-auto absolute bottom-0">
         <div className="flex h-full overflow-auto w-full justify-center">
           <Image
-            src="/contact-photo.webp"
+            src="/contact-photo.png"
             width={1440}
             height={540}
             alt="contact-photo"
-            className="object-cover h-full w-full"
+            className="object-cover w-full"
           />
         </div>
       </div>

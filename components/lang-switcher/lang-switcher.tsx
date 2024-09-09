@@ -47,7 +47,7 @@ export const LangSwitcher = () => {
   return (
     <>
       <div
-        className="relative flex flex-row items-center justify-center rounded-[50px] mx-4 px-3 py-1 cursor-pointer hover:hover:bg-grey-light active:bg-grey-light"
+        className="relative flex flex-row items-center justify-center rounded-md mx-4 px-3 py-1 cursor-pointer hover:hover:bg-grey-light active:bg-grey-light"
         onClick={handleOpenLangMenu}
         ref={dropdownRef}
       >
